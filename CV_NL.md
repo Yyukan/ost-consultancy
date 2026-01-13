@@ -29,8 +29,19 @@ Op zoek naar een positie of opdracht als Software Engineer/Solution Architect om
 
 ## WERKERVARING
 
+### Software Engineer
+**ING, Nederland** | *Nov 2025 - Heden*
+
+Uitvoering opdracht bij Data Customer NL.
+
+**Technologiestack:** Scala 2, Cats, Kafka, Postgres, Oracle.
+
+**Uitdagingen en prestaties:**
+*   Verwijderde de verouderde stabilisatiemodule uit de kritieke applicatie om de onderhoudbaarheid te verbeteren en technische schuld te verminderen.
+*   Implementeerde de migratie naar Simulation TestKit om PACT-integratietesten te automatiseren, waardoor handmatig werk werd verminderd en de snelheid van systeemvalidatie werd verbeterd.
+
 ### Freelance Scala/Go Engineer
-**Shell Recharge, Amsterdam** | *Nov 2024 - Heden*
+**Shell Recharge, Amsterdam** | *Nov 2024 - Nov 2025*
 
 Uitvoering opdracht bij MSP (Mobility Service Provider).
 

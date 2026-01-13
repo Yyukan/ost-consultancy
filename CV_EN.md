@@ -29,8 +29,19 @@ Seeking a Software Engineer / Solution Architect position where I can apply 20+ 
 
 ## RECENT WORK EXPERIENCE
 
+### Software Engineer
+**ING, Netherlands** | *Nov 2025 - Present*
+
+Executing assignment in the Data Customer NL.
+
+**Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle.
+
+**Challenges and achievements:**
+*   Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.
+*   Implemented migration to Simulation TestKit to automate PACT integration testing, reducing manual effort and improving system validation speed.
+
 ### Freelance Scala/Go Engineer
-**Shell Recharge, Netherlands** | *Nov 2024 - Present*
+**Shell Recharge, Netherlands** | *Nov 2024 - Nov 2025*
 
 Executing assignment in the MSP (Mobility Service Provider).
 
