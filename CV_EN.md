@@ -32,7 +32,7 @@ Seeking a Software Engineer / Solution Architect position where I can apply 20+ 
 ### Software Engineer
 **ING, Netherlands** | *Nov 2025 - Present*
 
-Executing assignment in the Data Customer NL.
+Executing an assignment in the Data Customer NL domain.
 
 **Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle.
 
@@ -43,13 +43,13 @@ Executing assignment in the Data Customer NL.
 ### Freelance Scala/Go Engineer
 **Shell Recharge, Netherlands** | *Nov 2024 - Nov 2025*
 
-Executing assignment in the MSP (Mobility Service Provider).
+Executing an assignment in the MSP (Mobility Service Provider).
 
 **Technology stack:** Scala 2/3, GoLang, Cats, ZIO, Akka, Kafka, Postgres, DynamoDB, AWS, K8s, DataDog.
 
 **Challenges and achievements:**
 *   Participated in the migration of the charging cards data to a third-party system, ensuring data consistency and availability.
-*   Migrated a microservice from Akka HTTP to ZIO, modernizing over 30+ endpoints for improved performance, testability, and functional purity.
+*   Migrated a microservice from Akka HTTP to ZIO, modernizing 30+ endpoints for improved performance, testability, and functional purity.
 *   Rewrote a Scala-based microservice in Golang, achieving better resource efficiency and aligning with team tech stack evolution.
 *   Resolved critical Kafka consumer issues, eliminating message processing bottlenecks and restoring system reliability.
 *   Designed and implemented a universal rate limiter using ZIO middleware, enabling consistent traffic control across services and protecting downstream systems.
@@ -57,7 +57,7 @@ Executing assignment in the MSP (Mobility Service Provider).
 *   Improved Kubernetes rollback procedures, fixing deployment issues and enhancing CI/CD resilience.
 
 ### Freelance Scala Engineer/Solution Architect
-**FedEx Express, Netherlands** | *June 2018 - Nov 2024*
+**FedEx Express, Netherlands** | *Jun 2018 - Nov 2024*
 
 Developing, delivering, supporting, and monitoring microservice-oriented software and architecture, coordinating with stakeholders, coaching, reviewing technical solutions.
 
@@ -65,14 +65,14 @@ Developing, delivering, supporting, and monitoring microservice-oriented softwar
 
 **Challenges and achievements:**
 *   Rewrote Node.js/Postgres core microservice to ElasticSearch/Cassandra to improve reliability and performance.
-*   Organised data export from Cassandra using S3/Blob Storage.
+*   Organized data export from Cassandra using S3/Blob Storage.
 *   Migrated the whole platform to Kafka 2.x with no downtime using additional consumers and gradually switching producers.
 *   Added support for Azure Blob Storage/S3.
 *   Developed and supported Track&Trace platform functionality.
 *   Migrated the whole platform to Kubernetes and highlighted JDK pitfalls regarding resources (CPU, memory).
 *   Upgraded to Scala 2.13 and further to Scala 3 including common libraries with cross-compilation.
 *   Added gRPC interface to some applications for internal communications.
-*   Migrated the whole platform from AWS to Azure evolutionary with no downtime.
+*   Migrated the whole platform from AWS to Azure incrementally with no downtime.
 *   Migrated Kafka support between clouds with no downtime.
 *   Migrated from AWS S3 to Azure Blob storage.
 *   Reviewed assessments and interviewed potential team candidates.
@@ -80,12 +80,12 @@ Developing, delivering, supporting, and monitoring microservice-oriented softwar
 *   Migrated to GitHub Actions from Jenkins, developed custom pipelines and build images.
 
 ### Senior Software Engineer
-**Bol.com, Netherlands** | *Nov 2015 - June 2018*
+**Bol.com, Netherlands** | *Nov 2015 - Jun 2018*
 
 Developing, delivering, supporting, and monitoring microservice-oriented software and architecture.
 
 **Highlights:**
-*   Imported/Exported data between Hadoop and runtime environment.
+*   Imported and exported data between Hadoop and runtime environment.
 *   Developed SQL, NoSQL, and full-text search solutions.
 *   Extended message-based and reactive architecture.
 
@@ -102,12 +102,12 @@ Supporting, designing, developing, and delivering software for managing referenc
 *   Designed and developed module for monitoring feed processes and displaying results in runtime.
 *   Designed, developed, and delivered JIRA plugin for improving Agile methodology in the company.
 *   Designed, implemented, and supported internal dashboard.
-*   Organised, designed, and executed JIRA data migration to the new version.
+*   Organized, designed, and executed JIRA data migration to the new version.
 *   Trained as a company Security Officer.
 
 ## EDUCATION
 
-**Master degree, Computer Engineering** | *1997 - 2003*
+**Master's degree, Computer Engineering** | *1997 - 2003*
 National Technical University of Ukraine 'Kharkiv Polytechnic Institute'
 
 ## CERTIFICATES

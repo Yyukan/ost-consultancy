@@ -32,7 +32,7 @@ Op zoek naar een positie of opdracht als Software Engineer/Solution Architect om
 ### Software Engineer
 **ING, Nederland** | *Nov 2025 - Heden*
 
-Uitvoering opdracht bij Data Customer NL.
+Uitvoering van opdracht bij Data Customer NL.
 
 **Technologiestack:** Scala 2, Cats, Kafka, Postgres, Oracle.
 
@@ -41,9 +41,9 @@ Uitvoering opdracht bij Data Customer NL.
 *   Implementeerde de migratie naar Simulation TestKit om PACT-integratietesten te automatiseren, waardoor handmatig werk werd verminderd en de snelheid van systeemvalidatie werd verbeterd.
 
 ### Freelance Scala/Go Engineer
-**Shell Recharge, Amsterdam** | *Nov 2024 - Nov 2025*
+**Shell Recharge, Nederland** | *Nov 2024 - Nov 2025*
 
-Uitvoering opdracht bij MSP (Mobility Service Provider).
+Uitvoering van opdracht bij MSP (Mobility Service Provider).
 
 **Technologiestack:** Scala 2/3, GoLang, Cats, ZIO, Akka, Kafka, Postgres, DynamoDB, AWS, K8s, DataDog.
 
@@ -57,11 +57,11 @@ Uitvoering opdracht bij MSP (Mobility Service Provider).
 *   Rollback procedures in Kubernetes verbeterd, waardoor deployproblemen zijn verholpen en de veerkracht van CI/CD is verhoogd.
 
 ### Freelance Scala Engineer/Solution Architect
-**FedEx, Hoofddorp** | *Jun 2018 - Nov 2024*
+**FedEx Express, Nederland** | *Jun 2018 - Nov 2024*
 
 Ontwikkeling, levering, ondersteuning en monitoring van microservice-georiënteerde software en architectuur. Coördinatie met stakeholders, coaching en beoordeling van technische oplossingen.
 
-**Technologie stack:** Scala, Cats, ZIO, Akka, Kafka, Cassandra, Postgres, Oracle, ElasticSearch, AWS, K8s, Azure.
+**Technologiestack:** Scala, Cats, ZIO, Akka, Kafka, Cassandra, Postgres, Oracle, ElasticSearch, AWS, K8s, Azure.
 
 **Uitdagingen en prestaties:**
 *   Herschrijven van de Node.js/Postgres-core microservice naar ElasticSearch/Cassandra om betrouwbaarheid en prestaties te verbeteren.
@@ -72,7 +72,7 @@ Ontwikkeling, levering, ondersteuning en monitoring van microservice-georiëntee
 *   Migratie van het hele platform naar Kubernetes en identificatie van JDK-valkuilen met betrekking tot resources (CPU, geheugen).
 *   Upgrade naar Scala 2.13 en vervolgens naar Scala 3, inclusief gemeenschappelijke bibliotheken met cross-compilatie.
 *   Toevoegen van een gRPC-interface aan enkele applicaties voor interne communicatie.
-*   Evolutionaire migratie van het hele platform van AWS naar Azure zonder downtime.
+*   Geleidelijke migratie van het hele platform van AWS naar Azure zonder downtime.
 *   Migratie van Kafka-ondersteuning tussen clouds zonder downtime.
 *   Migratie van AWS S3 naar Azure Blob Storage.
 *   Beoordeling van assessments en interviews met potentiële teamkandidaten.
@@ -80,7 +80,7 @@ Ontwikkeling, levering, ondersteuning en monitoring van microservice-georiëntee
 *   Migratie naar GitHub Actions vanuit Jenkins, ontwikkeling van aangepaste pipelines en bouw van images.
 
 ### Senior Software Engineer
-**Bol.com, Utrecht** | *Nov 2015 - Jun 2018*
+**Bol.com, Nederland** | *Nov 2015 - Jun 2018*
 
 Ontwikkeling, levering, ondersteuning en monitoring van microservice-georiënteerde software en architectuur.
 
@@ -90,7 +90,7 @@ Ontwikkeling, levering, ondersteuning en monitoring van microservice-georiëntee
 *   Breidde de message-based en reactieve architectuur uit.
 
 ### Senior Software Engineer
-**AssetControl, Heerenveen** | *Sep 2010 - Nov 2015*
+**AssetControl, Nederland** | *Sep 2010 - Nov 2015*
 
 Ondersteuning, ontwerp, ontwikkeling en levering van software voor het beheer van referentiegegevens binnen financiële instellingen.
 
@@ -114,23 +114,24 @@ National Technical University of Ukraine 'Kharkiv Polytechnic Institute', Ukrain
 
 *   The Complete Prompt Engineering for AI Bootcamp (Udemy, 2025)
 *   Learn Rust by Building Real Applications (Udemy, 2024)
-*   Software architecture: From Developer to Architect (LinkedIn, 2024)
+*   Software Architecture: From Developer to Architect (LinkedIn, 2024)
 *   Certified Kubernetes Application Developer (CNCF, 2020)
 *   Scala Advanced (Udemy, 2018)
 *   Google Cloud Platform (Coursera, 2017)
 *   Machine Learning with Big Data (Coursera, 2016)
 *   Hadoop Platform and Application Framework (Coursera, 2016)
 *   Functional Program Design in Scala (Coursera, 2016)
-*   Core ElasticSearch (Elastic.co, 2016)
+*   Core ElasticSearch (elastic.co, 2016)
 *   MongoDB for Java Developers (MongoDB, 2016)
-*   Play for Java Dev (Typesafe, 2013)
+*   Play for Java Developers (Typesafe, 2013)
 *   Principles of Reactive Programming (Coursera, 2013)
 *   Functional Programming Principles in Scala (Coursera, 2013)
 *   Algorithms (Coursera, 2013)
-*   Google Advanced Power Searching, 2013
-*   Oracle Certified Enterprise Architect (Step 1), 2011
-*   Sun Certified Business Component Developer, 2007
-*   Sun Certified Web Component Developer, 2006
+*   Google Advanced Power Searching (Google, 2013)
+*   Oracle Certified Enterprise Architect (Step 1) (Oracle, 2011)
+*   Sun Certified Business Component Developer (Sun, 2007)
+*   Sun Certified Web Component Developer (Sun, 2006)
+*   Sun Certified Java Programmer (Sun, 2006)
 
 ## TALENKENNIS
 
