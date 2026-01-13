@@ -1,85 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Coming Soon - OST Consultancy BV</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">
-                        <span style="white-space: nowrap;">OST Consultancy BV</span>
-                    </h1>
-                    <p class="mb-5">We are experts in providing solutions for JVM-based backend development, Kubernetes deployments, and scalable cloud-native architectures.</p>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-<!--                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">-->
-<!--                        &lt;!&ndash; Email address input&ndash;&gt;-->
-<!--                        <div class="row input-group-newsletter">-->
-<!--                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>-->
-<!--                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>-->
-<!--                        </div>-->
-<!--                        <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>-->
-<!--                        <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>-->
-<!--                        &lt;!&ndash; Submit success message&ndash;&gt;-->
-<!--                        &lt;!&ndash;&ndash;&gt;-->
-<!--                        &lt;!&ndash; This is what your users will see when the form&ndash;&gt;-->
-<!--                        &lt;!&ndash; has successfully submitted&ndash;&gt;-->
-<!--                        <div class="d-none" id="submitSuccessMessage">-->
-<!--                            <div class="text-center mb-3 mt-2">-->
-<!--                                <div class="fw-bolder">Form submission successful!</div>-->
-<!--                                To activate this form, sign up at-->
-<!--                                <br />-->
-<!--                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; Submit error message&ndash;&gt;-->
-<!--                        &lt;!&ndash;&ndash;&gt;-->
-<!--                        &lt;!&ndash; This is what your users will see when there is&ndash;&gt;-->
-<!--                        &lt;!&ndash; an error submitting the form&ndash;&gt;-->
-<!--                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>-->
-<!--                    </form>-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="OST Consultancy BV - Senior Solution Architect & Software Engineer with 20+ years of expertise in JVM technologies, cloud solutions, and scalable architectures." />
+    <meta name="author" content="Oleksandr Shtykhno" />
+    <meta name="keywords" content="Solution Architect, Software Engineer, Scala, Java, Kubernetes, Cloud, JVM, Microservices" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="OST Consultancy BV - Solution Architect & Software Engineer" />
+    <meta property="og:description" content="20+ years of expertise in JVM technologies, cloud solutions, and scalable architectures." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ost-consultancy.nl" />
+    
+    <title>OST Consultancy BV - Solution Architect & Software Engineer</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+    
+    <!-- Typed.js for typing effect -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- Core theme CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">OST Consultancy BV</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section" aria-label="Introduction">
+            <!-- Background Video -->
+            <video class="bg-video" playsinline autoplay muted loop aria-hidden="true">
+                <source src="assets/mp4/bg.mp4" type="video/mp4" />
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="container">
+                    <h1 class="hero-title">Oleksandr Shtykhno</h1>
+                    <p class="hero-subtitle">Senior Solution Architect & Software Engineer</p>
+                    <p class="hero-typed">
+                        <span id="typed-output"></span>
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#experience" class="btn btn-primary-custom">View Work</a>
+                        <a href="#contact" class="btn btn-outline-custom">Download CV</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="https://www.linkedin.com/in/yukan/"><i class="fab fa-linkedin"></i></a>
-                <a class="btn btn-dark m-3" href="CV_EN_Oleksandr_Shtykhno.pdf">CV EN</a>
-                <a class="btn btn-dark m-3" href="CV_NL_Oleksandr_Shtykhno.pdf">CV NL</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding bg-white" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h2 id="about-heading" class="section-title">About Me</h2>
+                        <p class="lead">
+                            Seeking a Software Engineer / Solution Architect position where I can apply 
+                            <strong>20+ years of expertise</strong> in JVM and cloud technologies to deliver 
+                            innovative, scalable solutions and contribute to challenging, impactful projects.
+                        </p>
+                        <div class="qualifications-grid">
+                            <div class="qualification-item">
+                                <div class="qualification-icon"><i class="fas fa-code"></i></div>
+                                <div class="qualification-content">
+                                    <h3>20+ Years</h3>
+                                    <p>Software Development & Architecture</p>
+                                </div>
+                            </div>
+                            <div class="qualification-item">
+                                <div class="qualification-icon"><i class="fab fa-java"></i></div>
+                                <div class="qualification-content">
+                                    <h3>15+ Years</h3>
+                                    <p>Java Development</p>
+                                </div>
+                            </div>
+                            <div class="qualification-item">
+                                <div class="qualification-icon"><i class="fas fa-layer-group"></i></div>
+                                <div class="qualification-content">
+                                    <h3>8+ Years</h3>
+                                    <p>Scala Development (Lightbend/ZIO)</p>
+                                </div>
+                            </div>
+                            <div class="qualification-item">
+                                <div class="qualification-icon"><i class="fas fa-sync-alt"></i></div>
+                                <div class="qualification-content">
+                                    <h3>15+ Years</h3>
+                                    <p>Agile Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="about-visual">
+                            <div class="tech-circle">
+                                <div class="tech-icon"><i class="fas fa-cloud"></i></div>
+                                <span>Cloud Native</span>
+                            </div>
+                            <div class="tech-circle">
+                                <div class="tech-icon"><i class="fas fa-cubes"></i></div>
+                                <span>Microservices</span>
+                            </div>
+                            <div class="tech-circle">
+                                <div class="tech-icon"><i class="fas fa-project-diagram"></i></div>
+                                <span>Architecture</span>
+                            </div>
+                            <div class="tech-circle">
+                                <div class="tech-icon"><i class="fas fa-bolt"></i></div>
+                                <span>Reactive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-padding bg-light" aria-labelledby="experience-heading">
+            <div class="container">
+                <h2 id="experience-heading" class="section-title text-center">Work Experience</h2>
+                <p class="section-subtitle text-center">A journey through innovative projects and impactful solutions</p>
+                
+                <div class="timeline">
+                    <!-- ING -->
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Software Engineer</h3>
+                                <span class="company">ING, Netherlands</span>
+                                <span class="period"><i class="far fa-calendar-alt"></i> Nov 2025 - Present</span>
+                            </div>
+                            <p>Executing an assignment in the Data Customer NL domain.</p>
+                            <div class="timeline-details">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.</li>
+                                    <li>Implemented migration to Simulation TestKit to automate PACT integration testing.</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Scala 2</span>
+                                    <span class="tech-tag">Cats</span>
+                                    <span class="tech-tag">Kafka</span>
+                                    <span class="tech-tag">Postgres</span>
+                                    <span class="tech-tag">Oracle</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shell Recharge -->
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Freelance Scala/Go Engineer</h3>
+                                <span class="company">Shell Recharge, Netherlands</span>
+                                <span class="period"><i class="far fa-calendar-alt"></i> Nov 2024 - Nov 2025</span>
+                            </div>
+                            <p>Executing an assignment in the MSP (Mobility Service Provider).</p>
+                            <div class="timeline-details">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Migrated a microservice from Akka HTTP to ZIO, modernizing 30+ endpoints.</li>
+                                    <li>Rewrote a Scala-based microservice in Golang for better resource efficiency.</li>
+                                    <li>Designed and implemented a universal rate limiter using ZIO middleware.</li>
+                                    <li>Resolved critical Kafka consumer issues, eliminating message processing bottlenecks.</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Scala 2/3</span>
+                                    <span class="tech-tag">GoLang</span>
+                                    <span class="tech-tag">ZIO</span>
+                                    <span class="tech-tag">Akka</span>
+                                    <span class="tech-tag">Kafka</span>
+                                    <span class="tech-tag">AWS</span>
+                                    <span class="tech-tag">K8s</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FedEx -->
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Freelance Scala Engineer / Solution Architect</h3>
+                                <span class="company">FedEx Express, Netherlands</span>
+                                <span class="period"><i class="far fa-calendar-alt"></i> Jun 2018 - Nov 2024</span>
+                            </div>
+                            <p>Developing, delivering, supporting, and monitoring microservice-oriented software and architecture.</p>
+                            <div class="timeline-details">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Rewrote Node.js/Postgres core microservice to ElasticSearch/Cassandra.</li>
+                                    <li>Migrated the whole platform from AWS to Azure incrementally with no downtime.</li>
+                                    <li>Upgraded to Scala 2.13 and further to Scala 3 with cross-compilation.</li>
+                                    <li>Migrated from Jenkins to GitHub Actions with custom pipelines.</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Scala</span>
+                                    <span class="tech-tag">ZIO</span>
+                                    <span class="tech-tag">Cats</span>
+                                    <span class="tech-tag">Kafka</span>
+                                    <span class="tech-tag">Cassandra</span>
+                                    <span class="tech-tag">Azure</span>
+                                    <span class="tech-tag">K8s</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bol.com -->
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Software Engineer</h3>
+                                <span class="company">Bol.com, Netherlands</span>
+                                <span class="period"><i class="far fa-calendar-alt"></i> Nov 2015 - Jun 2018</span>
+                            </div>
+                            <p>Developing, delivering, supporting, and monitoring microservice-oriented software and architecture.</p>
+                            <div class="timeline-details">
+                                <h4>Highlights:</h4>
+                                <ul>
+                                    <li>Imported and exported data between Hadoop and runtime environment.</li>
+                                    <li>Developed SQL, NoSQL, and full-text search solutions.</li>
+                                    <li>Extended message-based and reactive architecture.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AssetControl -->
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Software Engineer</h3>
+                                <span class="company">AssetControl, Netherlands</span>
+                                <span class="period"><i class="far fa-calendar-alt"></i> Sep 2010 - Nov 2015</span>
+                            </div>
+                            <p>Supporting, designing, developing, and delivering software for managing reference data within financial institutions.</p>
+                            <div class="timeline-details">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Implemented mobile version of the operational dashboard showing real-time data feed activity.</li>
+                                    <li>Designed and developed risk data manager for financial data manipulation.</li>
+                                    <li>Designed, developed, and delivered JIRA plugin for improving Agile methodology.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding bg-white" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading" class="section-title text-center">Technical Skills</h2>
+                <p class="section-subtitle text-center">Expertise across multiple technology domains</p>
+                
+                <div class="skills-grid">
+                    <!-- JVM Ecosystem -->
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h3>JVM Ecosystem</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-item">
+                                <span class="skill-name">Scala</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">ZIO</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Cats</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Akka</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <h3>Cloud & DevOps</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-item">
+                                <span class="skill-name">Kubernetes</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Azure</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Kafka</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Docker</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Emerging Tech -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fas fa-rocket"></i></div>
+                            <h3>Emerging Tech</h3>
+                        </div>
+                        <div class="skill-card-body">
+                            <div class="skill-item">
+                                <span class="skill-name">Go</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Rust</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 60%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">AI/Prompt Engineering</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">gRPC</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Skills -->
+                <div class="additional-skills" data-aos="fade-up">
+                    <h3>Core Competencies</h3>
+                    <div class="competency-tags">
+                        <span class="competency-tag">Object-Oriented Programming</span>
+                        <span class="competency-tag">Functional Programming</span>
+                        <span class="competency-tag">Microservices Architecture</span>
+                        <span class="competency-tag">Big Data Solutions</span>
+                        <span class="competency-tag">Reactive Programming</span>
+                        <span class="competency-tag">Solution Architecture</span>
+                        <span class="competency-tag">Enterprise Architecture</span>
+                        <span class="competency-tag">CI/CD Pipelines</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="section-padding bg-light" aria-labelledby="education-heading">
+            <div class="container">
+                <h2 id="education-heading" class="section-title text-center">Education & Certifications</h2>
+                <p class="section-subtitle text-center">Continuous learning and professional development</p>
+                
+                <div class="row">
+                    <!-- Education -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="education-card" data-aos="fade-up">
+                            <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h3>Education</h3>
+                            <div class="degree">
+                                <h4>Master's Degree</h4>
+                                <p class="field">Computer Engineering</p>
+                                <p class="institution">National Technical University of Ukraine<br>'Kharkiv Polytechnic Institute'</p>
+                                <p class="year"><i class="far fa-calendar-alt"></i> 1997 - 2003</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="col-lg-8">
+                        <div class="certifications-container" data-aos="fade-up">
+                            <h3><i class="fas fa-certificate"></i> Professional Certifications</h3>
+                            <div class="certifications-grid">
+                                <div class="cert-item featured">
+                                    <span class="cert-year">2025</span>
+                                    <span class="cert-name">The Complete Prompt Engineering for AI Bootcamp</span>
+                                    <span class="cert-issuer">Udemy</span>
+                                </div>
+                                <div class="cert-item featured">
+                                    <span class="cert-year">2024</span>
+                                    <span class="cert-name">Learn Rust by Building Real Applications</span>
+                                    <span class="cert-issuer">Udemy</span>
+                                </div>
+                                <div class="cert-item featured">
+                                    <span class="cert-year">2024</span>
+                                    <span class="cert-name">Software Architecture: From Developer to Architect</span>
+                                    <span class="cert-issuer">LinkedIn</span>
+                                </div>
+                                <div class="cert-item featured">
+                                    <span class="cert-year">2020</span>
+                                    <span class="cert-name">Certified Kubernetes Application Developer (CKAD)</span>
+                                    <span class="cert-issuer">CNCF</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2018</span>
+                                    <span class="cert-name">Scala Advanced</span>
+                                    <span class="cert-issuer">Udemy</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2017</span>
+                                    <span class="cert-name">Google Cloud Platform</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2016</span>
+                                    <span class="cert-name">Machine Learning with Big Data</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2011</span>
+                                    <span class="cert-name">Oracle Certified Enterprise Architect (Step 1)</span>
+                                    <span class="cert-issuer">Oracle</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-view-all" id="viewAllCerts" aria-expanded="false">
+                                <span>View All Certifications</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="all-certifications" id="allCertifications" hidden>
+                                <div class="cert-item">
+                                    <span class="cert-year">2016</span>
+                                    <span class="cert-name">Hadoop Platform and Application Framework</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2016</span>
+                                    <span class="cert-name">Functional Program Design in Scala</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2016</span>
+                                    <span class="cert-name">Core ElasticSearch</span>
+                                    <span class="cert-issuer">elastic.co</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2016</span>
+                                    <span class="cert-name">MongoDB for Java Developers</span>
+                                    <span class="cert-issuer">MongoDB</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2013</span>
+                                    <span class="cert-name">Play for Java Developers</span>
+                                    <span class="cert-issuer">Typesafe</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2013</span>
+                                    <span class="cert-name">Principles of Reactive Programming</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2013</span>
+                                    <span class="cert-name">Functional Programming Principles in Scala</span>
+                                    <span class="cert-issuer">Coursera</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2007</span>
+                                    <span class="cert-name">Sun Certified Business Component Developer</span>
+                                    <span class="cert-issuer">Sun</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2006</span>
+                                    <span class="cert-name">Sun Certified Web Component Developer</span>
+                                    <span class="cert-issuer">Sun</span>
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-year">2006</span>
+                                    <span class="cert-name">Sun Certified Java Programmer</span>
+                                    <span class="cert-issuer">Sun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="languages-section" data-aos="fade-up">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <span class="language-name">Ukrainian</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">English</span>
+                            <span class="language-level">Professional</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Dutch</span>
+                            <span class="language-level">B1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Footer Section -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading" class="section-title text-center text-white">Get In Touch</h2>
+                <p class="section-subtitle text-center text-white-50">Let's discuss how I can contribute to your next project</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>North Holland, Netherlands</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:ost.consultancy@gmail.com">ost.consultancy@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <h3>Download CV</h3>
+                        <div class="cv-buttons">
+                            <a href="CV_EN_Oleksandr_Shtykhno.pdf" class="btn btn-cv" download>
+                                <i class="fas fa-file-pdf"></i> English CV
+                            </a>
+                            <a href="CV_NL_Oleksandr_Shtykhno.pdf" class="btn btn-cv" download>
+                                <i class="fas fa-file-pdf"></i> Dutch CV
+                            </a>
+                        </div>
+                        
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/yukan/" class="social-link" aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Yyukan" class="social-link" aria-label="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 OST Consultancy BV. All rights reserved.</p>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    </footer>
+
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS -->
+    <script src="js/scripts.js"></script>
+</body>
 </html>

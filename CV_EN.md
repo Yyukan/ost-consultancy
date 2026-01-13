@@ -29,25 +29,25 @@ Seeking a Software Engineer / Solution Architect position where I can apply 20+ 
 
 ## RECENT WORK EXPERIENCE
 
-### Software Engineer
-**ING, Netherlands** | *Nov 2025 - Present*
+### Software Engineer ING, Netherlands | Nov 2025 - Present
 
 Executing an assignment in the Data Customer NL domain.
 
 **Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle.
 
 **Challenges and achievements:**
+
 *   Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.
 *   Implemented migration to Simulation TestKit to automate PACT integration testing, reducing manual effort and improving system validation speed.
 
-### Freelance Scala/Go Engineer
-**Shell Recharge, Netherlands** | *Nov 2024 - Nov 2025*
+### Freelance Scala/Go Engineer, Shell Recharge, Netherlands | Nov 2024 - Nov 2025
 
 Executing an assignment in the MSP (Mobility Service Provider).
 
 **Technology stack:** Scala 2/3, GoLang, Cats, ZIO, Akka, Kafka, Postgres, DynamoDB, AWS, K8s, DataDog.
 
 **Challenges and achievements:**
+
 *   Participated in the migration of the charging cards data to a third-party system, ensuring data consistency and availability.
 *   Migrated a microservice from Akka HTTP to ZIO, modernizing 30+ endpoints for improved performance, testability, and functional purity.
 *   Rewrote a Scala-based microservice in Golang, achieving better resource efficiency and aligning with team tech stack evolution.
@@ -56,14 +56,14 @@ Executing an assignment in the MSP (Mobility Service Provider).
 *   Built a scouting and testing microservice, used for internal diagnostics and exploratory testing, improving developer productivity.
 *   Improved Kubernetes rollback procedures, fixing deployment issues and enhancing CI/CD resilience.
 
-### Freelance Scala Engineer/Solution Architect
-**FedEx Express, Netherlands** | *Jun 2018 - Nov 2024*
+### Freelance Scala Engineer/Solution Architect, FedEx Express, Netherlands | Jun 2018 - Nov 2024
 
 Developing, delivering, supporting, and monitoring microservice-oriented software and architecture, coordinating with stakeholders, coaching, reviewing technical solutions.
 
 **Technology stack:** Scala, Cats, ZIO, Akka, Kafka, Cassandra, Postgres, Oracle, ElasticSearch, AWS, K8s, Azure.
 
 **Challenges and achievements:**
+
 *   Rewrote Node.js/Postgres core microservice to ElasticSearch/Cassandra to improve reliability and performance.
 *   Organized data export from Cassandra using S3/Blob Storage.
 *   Migrated the whole platform to Kafka 2.x with no downtime using additional consumers and gradually switching producers.
@@ -79,22 +79,22 @@ Developing, delivering, supporting, and monitoring microservice-oriented softwar
 *   Updated ElasticSearch taking into account breaking changes.
 *   Migrated to GitHub Actions from Jenkins, developed custom pipelines and build images.
 
-### Senior Software Engineer
-**Bol.com, Netherlands** | *Nov 2015 - Jun 2018*
+### Senior Software Engineer, Bol.com, Netherlands | Nov 2015 - Jun 2018
 
 Developing, delivering, supporting, and monitoring microservice-oriented software and architecture.
 
 **Highlights:**
+
 *   Imported and exported data between Hadoop and runtime environment.
 *   Developed SQL, NoSQL, and full-text search solutions.
 *   Extended message-based and reactive architecture.
 
-### Senior Software Engineer
-**AssetControl, Netherlands** | *Sep 2010 - Nov 2015*
+### Senior Software Engineer, AssetControl, Netherlands | Sep 2010 - Nov 2015
 
 Supporting, designing, developing, and delivering software for managing reference data within financial institutions.
 
 **Challenges and achievements:**
+
 *   Implemented mobile version of the operational dashboard which shows data feed activity in real-time.
 *   Designed and developed risk data manager which provides a useful instrument to manipulate financial data represented as curves.
 *   Developed internal dashboard for showing build system status, request tracker status, and customer activities in real-time.
