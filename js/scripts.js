@@ -29,11 +29,11 @@
                 strings: [
                     'JVM Expert',
                     'Cloud Architect',
-                    'Scala Specialist',
+                    'Scala Enthusiast',
+                    'Kotlin Specialist',
                     'Kubernetes Certified',
                     'Solution Architect',
-                    'Microservices Expert',
-                    'Rust Enthusiast'
+                    'Microservices Expert'
                 ],
                 typeSpeed: 50,
                 backSpeed: 30,
