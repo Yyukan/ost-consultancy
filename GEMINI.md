@@ -2,23 +2,32 @@
 
 ## Project Overview
 
-This project is a static website for **OST Consultancy BV**, a consultancy focused on JVM-based backend development, Kubernetes, and scalable cloud-native architectures. The project is owned by Oleksandr Shtykhno.
+This project is a static portfolio website for **OST Consultancy BV**, a consultancy focused on JVM-based backend development, Kubernetes, and scalable cloud-native architectures. The project is owned by Oleksandr Shtykhno.
 
-Currently, the `index.html` serves as a "Coming Soon" landing page. However, the `PLAN.md` file contains a comprehensive and detailed plan to build a full-fledged professional portfolio website. The final website will showcase experience, skills, and certifications, and provide downloadable CVs in English and Dutch.
+The website is a fully functional professional portfolio showcasing:
+- Professional experience and career history
+- Technical skills and expertise
+- Education and certifications
+- Downloadable CVs in English and Dutch (PDF format)
+- Contact information
 
 The project is built using:
-- **HTML5**
-- **CSS3** (with the Bootstrap framework)
-- **JavaScript** (currently minimal, but planned for interactive features)
-- A Python script (`extract_cv.py`) is included as a utility to extract text from the PDF CVs.
+- **HTML5** - Semantic markup with accessibility features
+- **CSS3** - Custom styles with responsive design (no external CSS framework)
+- **JavaScript** - Interactive features including typed.js animations, smooth scrolling, and navigation
+- **Typed.js** - For typing animation effects in the hero section
+- **Font Awesome** - For icons
+- **Google Fonts** - DM Sans font family
+
+A Python script (`md_to_pdf.py`) is included as a utility to convert Markdown CV files to PDF format.
 
 ## Building and Running
 
 This is a static website and does not require a build process.
 
 To view the website, you can either:
-1.  Open the `index.html` file directly in your web browser.
-2.  Run a simple local web server in the project's root directory. For example, using Python:
+1. Open the `index.html` file directly in your web browser.
+2. Run a simple local web server in the project's root directory. For example, using Python:
 
     ```bash
     python -m http.server
@@ -27,13 +36,9 @@ To view the website, you can either:
 
 ## Development Conventions
 
-- **Framework**: The project uses the [Bootstrap](https://getbootstrap.com/) CSS framework. Development should adhere to Bootstrap conventions and best practices.
-- **Project Plan**: The `PLAN.md` file is the source of truth for the future direction of the website. It outlines design concepts, color palettes, key features, and implementation steps. Any new development should follow this plan.
-- **CV Extraction**: The `extract_cv.py` script is available to parse and display the content of the CV PDFs. It requires the `pypdf` library. To install the dependencies, you can use pip:
-    ```bash
-    pip install -r requirements.txt 
-    ```
-    (Note: a `requirements.txt` file does not exist yet, but would be the conventional way to manage this dependency).
+- **Styling**: The project uses custom CSS without external frameworks. Styles follow a mobile-first responsive approach.
+- **Accessibility**: The website includes accessibility features such as skip links, ARIA labels, and semantic HTML.
+- **CV Generation**: The `md_to_pdf.py` script converts Markdown CV files (`CV_EN.md`, `CV_NL.md`) to PDF format.
 
 ## Git Conventions
 
@@ -42,11 +47,17 @@ To view the website, you can either:
 
 ## Key Files
 
-- **`index.html`**: The main entry point for the website.
-- **`css/styles.css`**: The primary stylesheet, which includes Bootstrap and custom styles.
-- **`js/scripts.js`**: Intended for custom JavaScript. Currently empty.
-- **`CV_EN_Oleksandr_Shtykhno.pdf`**: The English version of the CV.
-- **`CV_NL_Oleksandr_Shtykhno.pdf`**: The Dutch version of the CV.
-- **`extract_cv.py`**: A Python script to extract text from the CV PDF files.
+- **`index.html`**: The main entry point for the website - a complete portfolio page.
+- **`css/styles.css`**: The primary stylesheet with custom responsive styles.
+- **`js/scripts.js`**: Custom JavaScript for navigation, animations, and interactive features.
+- **`CV_EN.md`**: The English version of the CV in Markdown format.
+- **`CV_NL.md`**: The Dutch version of the CV in Markdown format.
+- **`CV_EN_Oleksandr_Shtykhno.pdf`**: The English version of the CV (generated PDF).
+- **`CV_NL_Oleksandr_Shtykhno.pdf`**: The Dutch version of the CV (generated PDF).
+- **`md_to_pdf.py`**: A Python script to convert Markdown CV files to PDF.
 - **`README.md`**: The project's README file.
-- **`assets/`**: Contains static assets like images, videos, and the favicon.
+- **`CNAME`**: Custom domain configuration for GitHub Pages (ost-consultancy.nl).
+- **`assets/`**: Contains static assets including:
+  - `favicon.ico` - Website favicon
+  - `img/` - Images including mobile fallback background
+  - `mp4/` - Background video file
