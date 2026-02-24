@@ -19,7 +19,7 @@ The project is built using:
 - **Font Awesome** - For icons
 - **Google Fonts** - DM Sans font family
 
-A Python script (`md_to_pdf.py`) is included as a utility to convert Markdown CV files to PDF format.
+A Gemini skill (`pdf`) is included as a utility to convert Markdown CV files to PDF format.
 
 ## Building and Running
 
@@ -38,7 +38,7 @@ To view the website, you can either:
 
 - **Styling**: The project uses custom CSS without external frameworks. Styles follow a mobile-first responsive approach.
 - **Accessibility**: The website includes accessibility features such as skip links, ARIA labels, and semantic HTML.
-- **CV Generation**: The `md_to_pdf.py` script converts Markdown CV files (`CV_EN.md`, `CV_NL.md`) to PDF format.
+- **CV Generation**: The `pdf` skill converts Markdown CV files (`CV_EN.md`, `CV_NL.md`) to PDF format using a specialized Python script within the skill.
 
 ## Git Conventions
 
@@ -54,7 +54,7 @@ To view the website, you can either:
 - **`CV_NL.md`**: The Dutch version of the CV in Markdown format.
 - **`CV_EN_Oleksandr_Shtykhno.pdf`**: The English version of the CV (generated PDF).
 - **`CV_NL_Oleksandr_Shtykhno.pdf`**: The Dutch version of the CV (generated PDF).
-- **`md_to_pdf.py`**: A Python script to convert Markdown CV files to PDF.
+- **`.gemini/skills/pdf`**: A Gemini skill to convert Markdown CV files to PDF.
 - **`README.md`**: The project's README file.
 - **`CNAME`**: Custom domain configuration for GitHub Pages (ost-consultancy.nl).
 - **`assets/`**: Contains static assets including:
