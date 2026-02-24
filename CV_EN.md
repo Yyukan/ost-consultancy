@@ -39,6 +39,7 @@ Executing an assignment in the Data Customer NL domain.
 
 *   Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.
 *   Implemented migration to Simulation TestKit to automate PACT integration testing, reducing manual effort and improving system validation speed.
+*   Utilized Copilot CLI to develop various skills for Azure and agents, accelerating team performance and efficiency.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Netherlands | Nov 2024 - Nov 2025
 

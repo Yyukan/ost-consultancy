@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
-import markdown
-from weasyprint import HTML, CSS
+import sys
+
+try:
+    import markdown
+    from weasyprint import HTML, CSS
+except ImportError:
+    print("Error: Missing dependencies 'markdown' or 'weasyprint'.")
+    print("Please install them using: pip install markdown weasyprint")
+    print("Note: If you are using a virtual environment, ensure it is activated.")
+    sys.exit(1)
 
 def md_to_pdf(input_md, output_pdf):
     with open(input_md, 'r', encoding='utf-8') as f:

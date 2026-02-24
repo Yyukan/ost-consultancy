@@ -18,8 +18,10 @@ This skill automates the conversion of Markdown-based CVs into professional, sty
 ### Scripts
 
 - `scripts/pdf.py`: A Python executable that uses `markdown` and `weasyprint` to generate styled PDFs.
-  - **Usage**: `python3 pdf/scripts/pdf.py`
-  - **Requirements**: `pip install markdown weasyprint` (must be available in the environment).
+  - **Usage**: 
+    1. Ensure the virtual environment is activated: `source .venv/bin/activate`
+    2. Run the script: `python3 .gemini/skills/pdf/scripts/pdf.py`
+  - **Requirements**: `pip install markdown weasyprint` (installed in `.venv`).
 
 ## Styling Details
 

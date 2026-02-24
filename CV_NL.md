@@ -39,6 +39,7 @@ Uitvoering van opdracht bij Data Customer NL.
 
 *   Verwijderde de verouderde stabilisatiemodule uit de kritieke applicatie om de onderhoudbaarheid te verbeteren en technische schuld te verminderen.
 *   Implementeerde de migratie naar Simulation TestKit om PACT-integratietesten te automatiseren, waardoor handmatig werk werd verminderd en de snelheid van systeemvalidatie werd verbeterd.
+*   Gebruikte Copilot CLI om verschillende skills voor Azure en agents te ontwikkelen, waardoor de prestaties en efficiëntie van het team werden versneld.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Nederland | Nov 2024 - Nov 2025
 
