@@ -10858,15 +10858,6 @@ video.bg-video {
   z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  body {
-    background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
-    background-size: cover;
-  }
-  body video {
-    display: none;
-  }
-}
 .masthead {
   position: relative;
   overflow: hidden;
@@ -12171,33 +12162,14 @@ video.bg-video {
 }
 
 /* Mobile Fallback for Video */
-@media (pointer: coarse) and (hover: none) {
+@media (max-width: 768px) {
   .hero-section {
     background: url("../assets/img/bg-mobile-fallback.jpg") var(--primary-blue) no-repeat center center;
     background-size: cover;
   }
-  
+
   .hero-section .bg-video {
     display: none;
   }
 }
 
-/* Reduced Motion */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-  
-  .hero-section .bg-video {
-    display: none;
-  }
-  
-  .hero-section {
-    background: url("../assets/img/bg-mobile-fallback.jpg") var(--primary-blue) no-repeat center center;
-    background-size: cover;
-  }
-}
