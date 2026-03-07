@@ -6632,7 +6632,7 @@ textarea.form-control-lg {
 
 @keyframes placeholder-glow {
   50% {
-    opacity: 0.2;
+  opacity: 0.1;
   }
 }
 .placeholder-wave {
@@ -10841,7 +10841,7 @@ body:before {
   height: 100%;
   width: 100%;
   background-color: #2a5555;
-  opacity: 0.35;
+  opacity: 0.2;
   z-index: 1;
   pointer-events: none;
 }
