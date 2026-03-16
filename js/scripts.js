@@ -1,6 +1,6 @@
 /*!
  * Blue Horizon Portfolio - Scripts
- * OST Consultancy BV
+ * OST Consultancy
  */
 
 (function() {
@@ -30,9 +30,11 @@
                     'JVM Expert',
                     'Cloud Architect',
                     'Scala Enthusiast',
-                    'Kotlin Specialist',
-                    'Kubernetes Certified',
                     'Solution Architect',
+                    'Kubernetes Certified',
+                    'AI Solutions Engineer',
+                    'Prompt Engineer',
+                    'AI Agent Developer',
                     'Microservices Expert'
                 ],
                 typeSpeed: 50,
