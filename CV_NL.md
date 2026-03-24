@@ -113,6 +113,7 @@ National Technical University of Ukraine 'Kharkiv Polytechnic Institute', Ukrain
 
 ## CERTIFICATEN
 
+*   GH-300 GitHub Copilot (Microsoft, 2026)
 *   The Complete Prompt Engineering for AI Bootcamp (Udemy, 2025)
 *   Learn Rust by Building Real Applications (Udemy, 2024)
 *   Software Architecture: From Developer to Architect (LinkedIn, 2024)
