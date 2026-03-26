@@ -16,6 +16,7 @@
         initSmoothScroll();
         initScrollAnimations();
         initCertificationsToggle();
+        initSkillBars();
     });
 
     // ============================================
@@ -266,7 +267,5 @@
         });
     }
 
-    // Initialize skill bars after DOM is ready
-    document.addEventListener('DOMContentLoaded', initSkillBars);
 
 })();
