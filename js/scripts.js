@@ -225,13 +225,9 @@
                 // Animate the newly visible items
                 const newItems = allCerts.querySelectorAll('.cert-item');
                 newItems.forEach(function(item, index) {
-                    item.style.opacity = '0';
-                    item.style.transform = 'translateY(10px)';
-                    
+                    item.classList.add('cert-item-entering');
                     setTimeout(function() {
-                        item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-                        item.style.opacity = '1';
-                        item.style.transform = 'translateY(0)';
+                        item.classList.remove('cert-item-entering');
                     }, index * 50);
                 });
             }
