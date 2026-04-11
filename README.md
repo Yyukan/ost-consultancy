@@ -24,31 +24,6 @@ Professional portfolio website for **OST Consultancy BV**
 - **Font Awesome 6.3** - Icons
 - **Google Fonts** - DM Sans font family
 
-## 🚀 Quick Start
-
-### Option 1: Open Directly
-```bash
-open index.html
-```
-
-### Option 2: Local Server
-```bash
-python -m http.server 8000
-# Then visit http://localhost:8000
-```
-
-## 📄 CV Generation
-
-Generate PDF versions of the CV from Markdown sources:
-
-```bash
-# Install dependencies
-pip install markdown weasyprint
-
-# Generate PDFs
-python md_to_pdf.py
-```
-
 ## 📁 Project Structure
 
 ```
@@ -66,9 +41,8 @@ ost-consultancy/
 ├── CV_NL.md                # Dutch CV (Markdown)
 ├── CV_EN_Oleksandr_Shtykhno.pdf  # English CV (PDF)
 ├── CV_NL_Oleksandr_Shtykhno.pdf  # Dutch CV (PDF)
-├── md_to_pdf.py            # PDF generation script
 ├── CNAME                   # GitHub Pages custom domain
-└── GEMINI.md               # AI assistant guidelines
+└── AGENTS.md               # AI assistant guidelines
 ```
 
 ## 👤 Author
