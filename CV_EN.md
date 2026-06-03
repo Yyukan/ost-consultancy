@@ -40,6 +40,9 @@ Executing an assignment in the Data Customer NL domain.
 *   Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.
 *   Implemented migration to Simulation TestKit to automate PACT integration testing, reducing manual effort and improving system validation speed.
 *   Utilized Copilot CLI to develop various skills for Azure and agents, accelerating team performance and efficiency.
+*   Designed and implemented a shared library that uses the agent as its runtime, enabling the same agent harness to be reused across multiple team projects and reducing integration overhead.
+*   Coached team members on effective Copilot usage, helping them automate repetitive tasks and adapt AI-assisted development to their specific workflows and use cases.
+*   Assisted in the decommissioning of a critical Scala 2 application, ensuring a smooth transition and minimizing impact on downstream systems.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Netherlands | Nov 2024 - Nov 2025
 
