@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a static portfolio website for **OST Consultancy BV**, a consultancy focused on JVM-based backend development, Kubernetes, and scalable cloud-native architectures. The project is owned by Oleksandr Shtykhno.
+This is a static portfolio website for **OST Consultancy**, a consultancy focused on JVM-based backend development, Kubernetes, and scalable cloud-native architectures. The project is owned by Oleksandr Shtykhno.
 
 The website showcases professional experience, technical skills, education, certifications, downloadable CVs (English and Dutch), and contact information.
 

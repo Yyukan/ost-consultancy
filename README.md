@@ -1,6 +1,6 @@
-# OST Consultancy BV - Portfolio Website
+# OST Consultancy - Portfolio Website
 
-Professional portfolio website for **OST Consultancy BV**
+Professional portfolio website for **OST Consultancy**
 
 ## 🌐 Live Site
 
@@ -56,4 +56,4 @@ Senior Solution Architect & Software Engineer
 
 ## 📝 License
 
-© 2026 OST Consultancy BV. All rights reserved.
+© 2026 OST Consultancy. All rights reserved.
