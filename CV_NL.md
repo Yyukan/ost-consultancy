@@ -43,6 +43,7 @@ Uitvoering van opdracht bij Data Customer NL.
 *   Ontwikkeld en geïmplementeerd een gedeelde library die de agent als runtime gebruikt, waardoor dezelfde agent harness herbruikbaar is over meerdere teamprojecten en integratie-overhead wordt gereduceerd.
 *   Gecoacht van teamleden op effectief Copilot-gebruik, hen helpend repetitieve taken te automatiseren en AI-ondersteunde ontwikkeling aan te passen aan hun specifieke workflows en use cases.
 *   Geholpen bij het decommissionen van een kritieke Scala 2 applicatie, waarbij een soepele overgang werd gegarandeerd en impact op downstream systemen geminimaliseerd.
+*   Een lichtgewicht Retrieval-Augmented Generation (RAG)-oplossing ontwikkeld met een LLM-gestuurde wiki-architectuur om verspreide kennis uit meerdere bronnen om te zetten in een doorzoekbare, gecureerde kennisbank.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Nederland | Nov 2024 - Nov 2025
 

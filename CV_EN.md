@@ -43,6 +43,7 @@ Executing an assignment in the Data Customer NL domain.
 *   Designed and implemented a shared library that uses the agent as its runtime, enabling the same agent harness to be reused across multiple team projects and reducing integration overhead.
 *   Coached team members on effective Copilot usage, helping them automate repetitive tasks and adapt AI-assisted development to their specific workflows and use cases.
 *   Assisted in the decommissioning of a critical Scala 2 application, ensuring a smooth transition and minimizing impact on downstream systems.
+*   Engineered a lightweight Retrieval-Augmented Generation (RAG) solution using an LLM-powered wiki architecture to transform distributed knowledge from multiple sources into a searchable, curated knowledge base.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Netherlands | Nov 2024 - Nov 2025
 
