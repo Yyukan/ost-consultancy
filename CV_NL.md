@@ -42,6 +42,7 @@ Uitvoering van opdracht bij Data Customer NL.
 *   Gebruikte Copilot CLI om verschillende skills voor Azure en agents te ontwikkelen, waardoor de prestaties en efficiëntie van het team werden versneld.
 *   Ontwikkeld en geïmplementeerd een gedeelde library die de agent als runtime gebruikt, waardoor dezelfde agent harness herbruikbaar is over meerdere teamprojecten en integratie-overhead wordt gereduceerd.
 *   Gecoacht van teamleden op effectief Copilot-gebruik, hen helpend repetitieve taken te automatiseren en AI-ondersteunde ontwikkeling aan te passen aan hun specifieke workflows en use cases.
+*   Ontwierp en bouwde een second-brain geheugenlaag voor Copilot CLI met session hooks, custom Skills en plain Markdown opslag, waarmee de assistent persistente context over sessies heen krijgt zonder MCP.
 *   Geholpen bij het decommissionen van een kritieke Scala 2 applicatie, waarbij een soepele overgang werd gegarandeerd en impact op downstream systemen geminimaliseerd.
 *   Een lichtgewicht Retrieval-Augmented Generation (RAG)-oplossing ontwikkeld met een LLM-gestuurde wiki-architectuur om verspreide kennis uit meerdere bronnen om te zetten in een doorzoekbare, gecureerde kennisbank.
 
