@@ -29,13 +29,13 @@
             new Typed('#typed-output', {
                 strings: [
                     'JVM Expert',
+                    'Distributed Systems',
                     'Cloud Architect',
                     'Scala Enthusiast',
                     'Solution Architect',
+                    'Product Engineer',
                     'Kubernetes Certified',
-                    'AI Solutions Engineer',
-                    'Prompt Engineer',
-                    'AI Agent Developer',
+                    'Agentic Engineering',
                     'Microservices Expert'
                 ],
                 typeSpeed: 50,
