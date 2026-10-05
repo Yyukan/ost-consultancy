@@ -11669,6 +11669,58 @@ video.bg-video {
 }
 
 /* ============================================
+   SERVICES SECTION
+   ============================================ */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background: var(--white);
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-light);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  text-align: center;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+.service-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 0.6rem;
+}
+
+.service-card p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ============================================
    EDUCATION & CERTIFICATIONS
    ============================================ */
 .education-card {
@@ -12021,6 +12073,17 @@ video.bg-video {
   font-size: 0.75rem;
 }
 
+.footer-company {
+  margin-top: 0.35rem !important;
+  font-size: 0.7rem !important;
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.footer-company .reg-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+  font-style: italic;
+}
+
 /* ============================================
    ANIMATIONS
    ============================================ */
@@ -12083,6 +12146,10 @@ video.bg-video {
     grid-template-columns: 1fr;
   }
   
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -12138,7 +12205,11 @@ video.bg-video {
   .section-title {
     font-size: 1.3rem;
   }
-
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .about-visual {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
