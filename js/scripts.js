@@ -35,7 +35,7 @@
                     'Solution Architect',
                     'Product Engineer',
                     'Kubernetes Certified',
-                    'AI-Assisted Delivery',
+                    'Agentic Engineering',
                     'Microservices Expert'
                 ],
                 typeSpeed: 50,
