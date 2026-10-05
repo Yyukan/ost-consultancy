@@ -12073,13 +12073,7 @@ video.bg-video {
   font-size: 0.75rem;
 }
 
-.footer-company {
-  margin-top: 0.35rem !important;
-  font-size: 0.7rem !important;
-  color: rgba(255, 255, 255, 0.55) !important;
-}
-
-.footer-company .reg-placeholder {
+.footer p .reg-placeholder {
   color: rgba(255, 255, 255, 0.45);
   font-style: italic;
 }
