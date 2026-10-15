@@ -22,12 +22,12 @@ def md_to_pdf(input_md, output_pdf):
     css_string = """
     @page {
         size: A4;
-        margin: 2cm;
+        margin: 1.8cm;
     }
     body {
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
         font-size: 10pt;
-        line-height: 1.4;
+        line-height: 1.3;
         color: #111;
     }
     h1 {
@@ -59,34 +59,42 @@ def md_to_pdf(input_md, output_pdf):
         color: #fff;
         background-color: #000;
         padding: 4px 8px;
-        margin-top: 25px;
-        margin-bottom: 10px;
+        margin-top: 11px;
+        margin-bottom: 6px;
         display: inline-block;
         width: auto;
         letter-spacing: 0.5px;
+        break-after: avoid;
     }
 
     h3 {
         font-size: 11pt;
         font-weight: 700;
-        margin-top: 15px;
+        margin-top: 7px;
         margin-bottom: 2px;
         color: #000;
+        break-after: avoid;
+    }
+
+    /* Keep a role header block (title, intro, stack line) with its first bullet */
+    h3 + p,
+    h3 + p + p {
+        break-after: avoid;
     }
     
     p {
-        margin-bottom: 6px;
+        margin-bottom: 2px;
         text-align: justify;
     }
 
     ul {
-        margin-top: 4px;
-        margin-bottom: 10px;
+        margin-top: 3px;
+        margin-bottom: 5px;
         padding-left: 18px;
         list-style-type: disc;
     }
     li {
-        margin-bottom: 3px;
+        margin-bottom: 1px;
     }
     a {
         color: #000;
