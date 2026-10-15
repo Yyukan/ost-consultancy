@@ -4,7 +4,7 @@
 
 ## SUMMARY
 
-Senior Scala & Cloud Solution Architect — 25+ years across JVM backend, event-driven data platforms and cloud-native architecture (Scala 2/3, Cats, ZIO, Akka, Kafka, Kubernetes, AWS/Azure), currently engineering AI-augmented delivery at ING inside a policy-locked enterprise environment.
+Software Engineer — 25+ years across backend, event-driven data platforms and cloud-native architecture (Java, Scala, Kotlin, Golang, Kubernetes, AWS/Azure/GCP), currently engineering AI-augmented delivery at ING inside a policy-locked enterprise environment.
 
 ## KEY IMPACT
 
