@@ -1,147 +1,76 @@
 # OLEKSANDR SHTYKHNO
 
-**Address:** North Holland, Netherlands  
-**Email:** [ost.consultancy@gmail.com](mailto:ost.consultancy@gmail.com)  
-**Website:** [ost-consultancy.nl](https://ost-consultancy.nl)  
-**LinkedIn:** [linkedin.com/in/yukan](https://www.linkedin.com/in/yukan)  
-**GitHub:** [github.com/Yyukan](https://github.com/Yyukan)
+**North Holland, Netherlands** · [ost.consultancy@gmail.com](mailto:ost.consultancy@gmail.com) · [ost-consultancy.nl](https://ost-consultancy.nl) · [linkedin.com/in/yukan](https://www.linkedin.com/in/yukan) · [github.com/Yyukan](https://github.com/Yyukan)
 
-## OBJECTIVE
+## SUMMARY
 
-Seeking a Software Engineer / Solution Architect position where I can apply 20+ years of expertise in JVM and cloud technologies to deliver innovative, scalable solutions and contribute to challenging, impactful projects.
+Senior Scala & Cloud Solution Architect — 25+ years across JVM backend, event-driven data platforms and cloud-native architecture (Scala 2/3, Cats, ZIO, Akka, Kafka, Kubernetes, AWS/Azure), currently engineering AI-augmented delivery at ING inside a policy-locked enterprise environment.
 
-## QUALIFICATIONS
+## KEY IMPACT
 
-*   **20+ years in Software Development and Architecture**
-*   **15+ years in Java Development:** Using various technologies to solve complicated business tasks, engineering, supporting, and deploying enterprise software to different environments and application servers.
-*   **8+ years in Scala Development:** Using Lightbend/ZIO technology stack to design and develop highly scalable and resilient software.
-*   **15+ years in Agile Development:** Developing software using Agile and rapid development techniques, test-driven style for creating good code design and quality, applying continuous integration into the development process.
-*   **2.5 years in System Administration:** Supervising enterprise networks and servers, sharing and granting Internet and Intranet services among clients.
+*   **Cloud migration:** 35+ microservices (60+ repos), 5+ databases, Kafka, Cassandra and Elasticsearch — AWS → Azure with **zero downtime**.
+*   **Scale:** track-and-trace read path rebuilt on Cassandra + Elasticsearch — **3–4 s → 15–30 ms at ~1,000 rps**; the top customer complaint resolved.
+*   **Modernisation & delivery:** Scala 2.13 → 3 estate-wide; 30+ endpoints Akka HTTP → ZIO; a Scala service rewritten in Go on a **2-month deadline**.
+*   **AI-augmented engineering:** agent harnesses, session-hook memory and RAG knowledge bases — engineered around a policy-locked environment (no MCP, no vendor memory).
 
-## PROFESSIONAL SKILLS
+## CORE STACK
 
-*   Object-oriented programming, Functional programming
-*   Designing and developing server-side applications
-*   Microservice-based software development
-*   Big Data solutions
-*   Reactive programming
-*   Solution and Enterprise Architecture
+*   **Languages & FP:** Scala 2/3 (8+ yrs — Cats, ZIO, Akka), Java (15+ yrs), Go, Kotlin; functional design, TDD.
+*   **Data & Streaming:** Kafka (upgrade, schema registry), Cassandra, PostgreSQL, Oracle, Elasticsearch, Hadoop, DynamoDB, S3 / Azure Blob.
+*   **Cloud & Platform:** AWS, Azure, Kubernetes, Docker, GitHub Actions, Jenkins, gRPC / REST, DataDog.
+*   **AI & Agentic:** GitHub Copilot CLI (GH-300), Skills and session hooks, agent harnesses, RAG / LLM knowledge bases, prompt engineering, MCP.
+*   **Architecture:** microservices, event-driven design, zero-downtime migration, enterprise architecture, Agile / CI-CD, mentoring.
 
 ## RECENT WORK EXPERIENCE
 
-### Software Engineer ING, Netherlands | Nov 2025 - Present
+### Software Engineer, ING, Netherlands | Nov 2025 - Present
 
-Executing an assignment in the Data Customer NL domain.
+External consultant via OST Consultancy — Data Customer NL domain.
 
-**Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle.
+**Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle, GitHub Copilot CLI.
 
-**Challenges and achievements:**
-
-*   Removed the outdated stabilizer module from the critical application to improve maintainability and reduce technical debt.
-*   Implemented migration to Simulation TestKit to automate PACT integration testing, reducing manual effort and improving system validation speed.
-*   Utilized Copilot CLI to develop various skills for Azure and agents, accelerating team performance and efficiency.
-*   Designed and implemented a shared library that uses the agent as its runtime, enabling the same agent harness to be reused across multiple team projects and reducing integration overhead.
-*   Coached team members on effective Copilot usage, helping them automate repetitive tasks and adapt AI-assisted development to their specific workflows and use cases.
-*   Designed and built a second-brain memory layer for Copilot CLI using session hooks, custom Skills and plain Markdown storage, giving the assistant persistent cross-session context without MCP.
-*   Assisted in the decommissioning of a critical Scala 2 application, ensuring a smooth transition and minimizing impact on downstream systems.
-*   Engineered a lightweight Retrieval-Augmented Generation (RAG) solution using an LLM-powered wiki architecture to transform distributed knowledge from multiple sources into a searchable, curated knowledge base.
+*   **AI coach and presenter for the team:** ran hands-on sessions on Copilot CLI, custom Skills and agent workflows, and coached engineers to apply AI-assisted development themselves.
+*   Gave a locked-down coding assistant persistent cross-session memory with a second-brain layer of session hooks, Skills and Markdown storage — no MCP, near-zero maintenance — and turned scattered team documentation into a searchable RAG wiki.
+*   Cut integration overhead with a shared agent-as-runtime library reused across team projects, automated PACT integration testing via Simulation TestKit, and cut technical debt in a business-critical Scala 2 application by removing an outdated stabilizer module and supporting its decommissioning.
 
 ### Freelance Scala/Go Engineer, Shell Recharge, Netherlands | Nov 2024 - Nov 2025
 
-Executing an assignment in the MSP (Mobility Service Provider).
+Assignment in the MSP (Mobility Service Provider) domain.
 
 **Technology stack:** Scala 2/3, GoLang, Cats, ZIO, Akka, Kafka, Postgres, DynamoDB, AWS, K8s, DataDog.
 
-**Challenges and achievements:**
+*   Restored message throughput and reliability by diagnosing and resolving critical Kafka consumer bottlenecks throttling production processing.
+*   Modernised services across stacks: 30+ endpoints moved from Akka HTTP to ZIO behind a test safety net, and a Scala microservice rewritten in Go (30+ endpoints) and shipped to production **within a 2-month deadline**, cutting its resource footprint for handover to the offshore team.
+*   Built a universal rate limiter as ZIO middleware, fixed Kubernetes rollback procedures causing failed deployments, and de-risked the charging-card migration to a third-party system.
 
-*   Participated in the migration of the charging cards data to a third-party system, ensuring data consistency and availability.
-*   Migrated a microservice from Akka HTTP to ZIO, modernizing 30+ endpoints for improved performance, testability, and functional purity.
-*   Rewrote a Scala-based microservice in Golang, achieving better resource efficiency and aligning with team tech stack evolution.
-*   Resolved critical Kafka consumer issues, eliminating message processing bottlenecks and restoring system reliability.
-*   Designed and implemented a universal rate limiter using ZIO middleware, enabling consistent traffic control across services and protecting downstream systems.
-*   Built a scouting and testing microservice, used for internal diagnostics and exploratory testing, improving developer productivity.
-*   Improved Kubernetes rollback procedures, fixing deployment issues and enhancing CI/CD resilience.
+### Freelance Scala Engineer / Solution Architect, FedEx Express, Netherlands | Jun 2018 - Nov 2024
 
-### Freelance Scala Engineer/Solution Architect, FedEx Express, Netherlands | Jun 2018 - Nov 2024
+Commerce-critical B2B platform; stakeholder coordination, coaching and technical reviews.
 
-Developing, delivering, supporting, and monitoring microservice-oriented software and architecture, coordinating with stakeholders, coaching, reviewing technical solutions.
+**Technology stack:** Scala, Cats, ZIO, Akka, Kafka, Cassandra, Postgres, Oracle, ElasticSearch, AWS, Azure, K8s.
 
-**Technology stack:** Scala, Cats, ZIO, Akka, Kafka, Cassandra, Postgres, Oracle, ElasticSearch, AWS, K8s, Azure.
-
-**Challenges and achievements:**
-
-*   Rewrote Node.js/Postgres core microservice to ElasticSearch/Cassandra to improve reliability and performance.
-*   Organized data export from Cassandra using S3/Blob Storage.
-*   Migrated the whole platform to Kafka 2.x with no downtime using additional consumers and gradually switching producers.
-*   Added support for Azure Blob Storage/S3.
-*   Developed and supported Track&Trace platform functionality.
-*   Migrated the whole platform to Kubernetes and highlighted JDK pitfalls regarding resources (CPU, memory).
-*   Upgraded to Scala 2.13 and further to Scala 3 including common libraries with cross-compilation.
-*   Added gRPC interface to some applications for internal communications.
-*   Migrated the whole platform from AWS to Azure incrementally with no downtime.
-*   Migrated Kafka support between clouds with no downtime.
-*   Migrated from AWS S3 to Azure Blob storage.
-*   Reviewed assessments and interviewed potential team candidates.
-*   Updated ElasticSearch taking into account breaking changes.
-*   Migrated to GitHub Actions from Jenkins, developed custom pipelines and build images.
+*   **Cloud migration, zero downtime:** Migrated the whole platform from AWS to Azure — **35+ microservices across 60+ repositories**, including 5+ PostgreSQL databases, a Kafka cluster, Cassandra and Elasticsearch — **with no customer-visible downtime**, in small verifiable steps behind feature flags; storage moved with no code change.
+*   **Kafka platform:** Upgraded to Kafka 2.x and moved the cluster across clouds with extra consumers and gradual producer switch-over — also without downtime.
+*   **Scale — track & trace (~1,000 rps):** Replaced a Node.js/PostgreSQL read path with Cassandra plus Elasticsearch, taking customer-facing queries from **3–4 seconds to 15–30 ms** at **~1,000 rps** and resolving the top customer complaint.
+*   **Latency:** Cut service-to-service latency from **30 ms to 5 ms** with a proto-definition library that moved internal calls from REST to gRPC.
+*   **Modernisation, CI & team:** Scala 2.13 → 3; Jenkins → GitHub Actions with custom pipelines and build images; Kubernetes migration surfacing JDK CPU/memory pitfalls; coached engineers, reviewed designs, ran technical interviews.
 
 ### Senior Software Engineer, Bol.com, Netherlands | Nov 2015 - Jun 2018
 
-Developing, delivering, supporting, and monitoring microservice-oriented software and architecture.
+One of the Netherlands' largest e-commerce platforms — Java, Kotlin, Spring Boot, Hadoop, SQL/NoSQL, full-text search, GCP.
 
-**Highlights:**
-
-*   Imported and exported data between Hadoop and runtime environment.
-*   Developed SQL, NoSQL, and full-text search solutions.
-*   Extended message-based and reactive architecture.
+*   Extended the platform's message-based and reactive architecture for higher product-data volumes, and delivered SQL, NoSQL and full-text search solutions.
 
 ### Senior Software Engineer, AssetControl, Netherlands | Sep 2010 - Nov 2015
 
-Supporting, designing, developing, and delivering software for managing reference data within financial institutions.
+Reference-data and risk-data software for financial institutions — Java, Spring, Oracle, JIRA plugin development, test automation.
 
-**Challenges and achievements:**
+*   Delivered a risk-data manager for curve-based financial data, a real-time operations dashboard (desktop and mobile), a JIRA plugin adopted internally for Agile practice, and improved test automation for large data volumes.
 
-*   Implemented mobile version of the operational dashboard which shows data feed activity in real-time.
-*   Designed and developed risk data manager which provides a useful instrument to manipulate financial data represented as curves.
-*   Developed internal dashboard for showing build system status, request tracker status, and customer activities in real-time.
-*   Improved framework for test automation with different scenarios and large amounts of data.
-*   Designed and developed module for monitoring feed processes and displaying results in runtime.
-*   Designed, developed, and delivered JIRA plugin for improving Agile methodology in the company.
-*   Designed, implemented, and supported internal dashboard.
-*   Organized, designed, and executed JIRA data migration to the new version.
-*   Trained as a company Security Officer.
+## EDUCATION & CERTIFICATIONS
 
-## EDUCATION
+**Master's degree, Computer Engineering** — National Technical University of Ukraine 'Kharkiv Polytechnic Institute', 1997–2003
 
-**Master's degree, Computer Engineering** | *1997 - 2003*
-National Technical University of Ukraine 'Kharkiv Polytechnic Institute'
+GH-300 GitHub Copilot (2026) · Prompt Engineering for AI Bootcamp (2025) · Software Architecture: Developer to Architect (2024) · Rust by Building Real Applications (2024) · Certified Kubernetes Application Developer (2020) · Scala Advanced (2018)
 
-## CERTIFICATES
-
-*   GH-300 GitHub Copilot (Microsoft, 2026)
-*   The Complete Prompt Engineering for AI Bootcamp (Udemy, 2025)
-*   Learn Rust by Building Real Applications (Udemy, 2024)
-*   Software Architecture: From Developer to Architect (LinkedIn, 2024)
-*   Certified Kubernetes Application Developer (CNCF, 2020)
-*   Scala Advanced (Udemy, 2018)
-*   Google Cloud Platform (Coursera, 2017)
-*   Machine Learning with Big Data (Coursera, 2016)
-*   Hadoop Platform and Application Framework (Coursera, 2016)
-*   Functional Program Design in Scala (Coursera, 2016)
-*   Core ElasticSearch (elastic.co, 2016)
-*   MongoDB for Java Developers (MongoDB, 2016)
-*   Play for Java Developers (Typesafe, 2013)
-*   Principles of Reactive Programming (Coursera, 2013)
-*   Functional Programming Principles in Scala (Coursera, 2013)
-*   Algorithms (Coursera, 2013)
-*   Google Advanced Power Searching (Google, 2013)
-*   Oracle Certified Enterprise Architect (Step 1) (Oracle, 2011)
-*   Sun Certified Business Component Developer (Sun, 2007)
-*   Sun Certified Web Component Developer (Sun, 2006)
-*   Sun Certified Java Programmer (Sun, 2006)
-
-## LANGUAGES
-
-*   **Ukrainian:** Native or bilingual proficiency
-*   **English:** Full professional proficiency
-*   **Dutch:** Elementary proficiency, B1
+**Languages:** Ukrainian (native) · English (full professional) · Dutch (elementary, B1)
