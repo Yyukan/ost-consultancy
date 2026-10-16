@@ -25,7 +25,7 @@ Software Engineer — 25+ years across backend, event-driven data platforms and 
 
 ### Software Engineer, ING, Netherlands | Nov 2025 - Present
 
-External consultant via OST Consultancy — Data Customer NL domain.
+External consultant — Data Customer NL domain.
 
 **Technology stack:** Scala 2, Cats, Kafka, Postgres, Oracle, GitHub Copilot CLI.
 
@@ -43,7 +43,7 @@ Assignment in the MSP (Mobility Service Provider) domain.
 *   Modernised services across stacks: 30+ endpoints moved from Akka HTTP to ZIO behind a test safety net, and a Scala microservice rewritten in Go (30+ endpoints) and shipped to production **within a 2-month deadline**, cutting its resource footprint for handover to the offshore team.
 *   Built a universal rate limiter as ZIO middleware, fixed Kubernetes rollback procedures causing failed deployments, and de-risked the charging-card migration to a third-party system.
 
-### Freelance Scala Engineer / Solution Architect, FedEx Express, Netherlands | Jun 2018 - Nov 2024
+### Freelance Scala Engineer / Solution Architect, FedEx Express, Netherlands | <span style="white-space:nowrap">Jun 2018 - Nov 2024</span>
 
 Commerce-critical B2B platform; stakeholder coordination, coaching and technical reviews.
 
@@ -73,4 +73,4 @@ Reference-data and risk-data software for financial institutions — Java, Sprin
 
 GH-300 GitHub Copilot (2026) · Prompt Engineering for AI Bootcamp (2025) · Software Architecture: Developer to Architect (2024) · Rust by Building Real Applications (2024) · Certified Kubernetes Application Developer (2020) · Scala Advanced (2018)
 
-**Languages:** Ukrainian (native) · English (full professional) · Dutch (elementary, B1)
+**Languages:** Ukrainian (native) · English (full professional) · Dutch (intermediate, B1)
