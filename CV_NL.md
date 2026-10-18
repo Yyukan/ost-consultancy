@@ -25,7 +25,7 @@ Software Engineer — 25+ jaar in backend, event-driven dataplatforms en cloud-n
 
 ### Software Engineer, ING, Nederland | Nov 2025 - heden
 
-Externe consultant via OST Consultancy — Data Customer NL.
+Externe consultant — Data Customer NL.
 
 **Technologiestack:** Scala 2, Cats, Kafka, Postgres, Oracle, GitHub Copilot CLI.
 
@@ -43,7 +43,7 @@ Opdracht binnen MSP (Mobility Service Provider).
 *   Moderniseerde services over meerdere stacks: 30+ endpoints van Akka HTTP naar ZIO achter een testvangnet, en een Scala-microservice herschreven in Go (30+ endpoints) en binnen een **deadline van 2 maanden** naar productie gebracht, met een kleinere resource-voetafdruk.
 *   Bouwde een universele rate limiter als ZIO-middleware, verhielp Kubernetes-rollbackprocedures die mislukte deployments veroorzaakten, en begeleidde de migratie van laadpasgegevens naar een extern systeem.
 
-### Freelance Scala Engineer / Solution Architect, FedEx Express, Nederland | Jun 2018 - Nov 2024
+### Freelance Scala Engineer / Solution Architect, FedEx Express, Nederland | <span style="white-space:nowrap">Jun 2018 - Nov 2024</span>
 
 Bedrijfskritisch B2B-platform; afstemming met stakeholders, coaching en technische reviews.
 
