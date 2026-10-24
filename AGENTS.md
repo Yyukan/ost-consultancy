@@ -35,7 +35,7 @@ open index.html
 source .venv/bin/activate
 
 # Generate PDFs from Markdown (run from project root)
-python3 .claude/skills/pdf/scripts/pdf.py
+python3 .agents/skills/pdf/scripts/pdf.py
 ```
 
 > Dependencies (`markdown`, `weasyprint`) are pre-installed in `.venv`.
@@ -100,7 +100,7 @@ python3 .claude/skills/pdf/scripts/pdf.py
 ### CV Updates
 When updating CVs:
 1. Edit `CV_EN.md` (English) and `CV_NL.md` (Dutch) simultaneously
-2. Run `source .venv/bin/activate && python3 .claude/skills/pdf/scripts/pdf.py` from project root to regenerate PDFs
+2. Run `source .venv/bin/activate && python3 .agents/skills/pdf/scripts/pdf.py` from project root to regenerate PDFs
 3. Verify `CV_EN_Oleksandr_Shtykhno.pdf` and `CV_NL_Oleksandr_Shtykhno.pdf` exist and are non-empty
 
 ### Before Submitting Work
