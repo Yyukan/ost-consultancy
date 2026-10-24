@@ -1,6 +1,6 @@
 # OLEKSANDR SHTYKHNO
 
-**Noord-Holland, Nederland** · [ost.consultancy@gmail.com](mailto:ost.consultancy@gmail.com) · [ost-consultancy.nl](https://ost-consultancy.nl) · [linkedin.com/in/yukan](https://www.linkedin.com/in/yukan) · [github.com/Yyukan](https://github.com/Yyukan)
+**Noord-Holland, Nederland** · [info@ost-consultancy.nl](mailto:info@ost-consultancy.nl) · [ost-consultancy.nl](https://ost-consultancy.nl) · [linkedin.com/in/yukan](https://www.linkedin.com/in/yukan) · [github.com/Yyukan](https://github.com/Yyukan)
 
 ## SAMENVATTING
 

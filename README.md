@@ -52,7 +52,7 @@ Senior Solution Architect & Software Engineer
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/yukan/)
 - 🐙 [GitHub](https://github.com/Yyukan)
-- 📧 ost.consultancy@gmail.com
+- 📧 info@ost-consultancy.nl
 
 ## 📝 License
 
