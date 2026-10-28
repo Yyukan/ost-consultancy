@@ -36,6 +36,24 @@
         p, ul { margin: 8px 0; }
         a { color: var(--primary); }
         footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+        .coffee {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            border-radius: 999px;
+            background: #FFDD00;
+            color: #1f2a2a;
+            font-weight: 500;
+            text-decoration: none;
+            transition: transform 120ms ease, box-shadow 120ms ease;
+        }
+        .coffee:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(31, 42, 42, 0.18); }
+        .coffee:focus-visible { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(31, 42, 42, 0.18); outline: 2px solid var(--primary); outline-offset: 2px; }
+        .coffee svg { flex: none; }
+        @media (max-width: 575px) {
+            .coffee { width: 100%; justify-content: center; }
+        }
     </style>
 </head>
 <body>
@@ -73,6 +91,10 @@
 
     <h3>Is my data backed up?</h3>
     <p>Your places live only on your iPhone and are part of its iCloud or computer backup.</p>
+
+    <h3>Enjoying Work Hours?</h3>
+    <p>It is free and has no ads. If it is useful, you can buy me a coffee — entirely optional.</p>
+    <p><a class="coffee" href="https://buymeacoffee.com/yyukan" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee — opens buymeacoffee.com in a new tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z" /><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16" /><path d="M7 3.5c0 .8.9 1 .9 1.8" /><path d="M11 3.5c0 .8.9 1 .9 1.8" /></svg><span>Buy me a coffee</span></a></p>
 
     <h2 id="privacy">Privacy policy</h2>
     <p>Effective date: 27 October 2026</p>
