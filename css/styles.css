@@ -11024,6 +11024,18 @@ video.bg-video {
   opacity: 0.85;
 }
 
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
 .brand-text {
   letter-spacing: 0.5px;
 }
@@ -12071,6 +12083,22 @@ video.bg-video {
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
   font-size: 0.75rem;
+}
+
+.footer-x {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-x:hover {
+  color: var(--white);
+}
+
+.x-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
 }
 
 /* ============================================
