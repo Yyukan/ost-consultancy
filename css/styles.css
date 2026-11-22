@@ -11946,7 +11946,7 @@ video.bg-video {
    CONTACT SECTION
    ============================================ */
 .contact-section {
-  background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+  background: var(--primary-blue) url("../assets/img/brand/ost-hex-bg.svg?v=3") left top / cover no-repeat;
   padding: 4rem 0;
 }
 
@@ -12082,10 +12082,6 @@ video.bg-video {
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
   font-size: 0.75rem;
-}
-
-.footer a {
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .x-icon {
