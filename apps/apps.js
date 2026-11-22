@@ -9,6 +9,7 @@
   const D = window.OST_APPS;
   const COFFEE_SVG = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z"/><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M7 3.5c0 .8.9 1 .9 1.8"/><path d="M11 3.5c0 .8.9 1 .9 1.8"/></svg>';
 
+  const APPLE_SVG = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M16.37 12.7c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3-.79-1.55.02-2.97.9-3.77 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.39-.92-2.41-3.65ZM14.1 5.95c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.1 1.76-.96 2.8 1.01.08 2.05-.52 2.68-1.28Z"/></svg>';
   const byCategory = (id) => D.apps.filter((a) => a.category === id);
   const categoryTitle = (id) => D.categories.find((c) => c.id === id).title;
   const mailto = (a) => `mailto:${D.contactEmail}?subject=${encodeURIComponent(a.name)}`;
@@ -24,7 +25,7 @@
 
   function appHtml(a) {
     const store = a.appStore
-      ? `<a class="primary" href="${a.appStore}" target="_blank" rel="noopener noreferrer">App Store</a>`
+      ? `<a class="primary" href="${a.appStore}" target="_blank" rel="noopener noreferrer" aria-label="${a.name} on the App Store (opens in a new tab)">${APPLE_SVG}App Store</a>`
       : "";
     const tags = [a.platforms, a.privacy.network ? "Needs internet" : "Works offline", "No ads"];
     return `
