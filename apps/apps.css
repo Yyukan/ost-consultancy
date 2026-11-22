@@ -53,7 +53,7 @@ html { scroll-padding-top: 72px; scroll-behavior: smooth; }
 
 /* Layout: hero, left app menu, app catalogue */
 body { background: var(--light-blue); }
-.cat-hero { background: var(--primary-blue) url("../assets/img/brand/ost-hex-bg.svg?v=2") left top / cover no-repeat; color: #fff; padding: 6.5rem 0 2.5rem; }
+.cat-hero { background: var(--primary-blue) url("../assets/img/brand/ost-hex-bg.svg?v=3") left top / cover no-repeat; color: #fff; padding: 6.5rem 0 2.5rem; }
 .cat-hero h1 { font-size: 2.4rem; font-weight: 700; margin: 0 0 .3rem; }
 .lead-sub { color: rgba(255,255,255,.75); margin: 0; }
 .layout { display: grid; grid-template-columns: 250px 1fr; gap: 2.5rem; padding-top: 2.5rem; padding-bottom: 3rem; align-items: start; }
