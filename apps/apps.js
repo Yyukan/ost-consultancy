@@ -95,18 +95,29 @@
       .map((a) => `<strong>${a.name}</strong>: ${a.credits}`).join(" · ");
   }
 
+  // On mobile the menu is a horizontal icon strip: scroll only the strip, never the page.
+  // (scrollIntoView also nudges the window, which fights the user's own scroll on phones.)
+  function centerInStrip(nav, link) {
+    if (nav.scrollWidth <= nav.clientWidth) return;
+    const navBox = nav.getBoundingClientRect();
+    const linkBox = link.getBoundingClientRect();
+    const left = nav.scrollLeft + (linkBox.left - navBox.left) - (navBox.width - linkBox.width) / 2;
+    nav.scrollTo({ left, behavior: "smooth" });
+  }
+
   // Highlights the current app in the left menu while scrolling.
   function initScrollSpy() {
-    const links = [...document.querySelectorAll(".side-nav a[data-id]")];
+    const nav = document.getElementById("sideNav");
+    const links = [...nav.querySelectorAll("a[data-id]")];
     if (!("IntersectionObserver" in window)) return;
+    let currentId = null;
     const spy = new IntersectionObserver((entries) => entries.forEach((e) => {
-      if (!e.isIntersecting) return;
+      if (!e.isIntersecting || e.target.id === currentId) return;
+      currentId = e.target.id;
       links.forEach((l) => {
-        const on = l.dataset.id === e.target.id;
+        const on = l.dataset.id === currentId;
         l.classList.toggle("current", on);
-        if (on && window.matchMedia("(max-width: 991.98px)").matches) {
-          l.scrollIntoView({ block: "nearest", inline: "center" });
-        }
+        if (on) centerInStrip(nav, l);
       });
     }), { rootMargin: "-40% 0px -55% 0px" });
     document.querySelectorAll(".app-card").forEach((row) => spy.observe(row));
