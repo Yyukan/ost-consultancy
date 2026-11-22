@@ -57,7 +57,7 @@ ost-consultancy/
 Everything is generated from `apps/apps-data.js`.
 
 **Add an app:** put its icon in `apps/icons/<id>.png` and add one entry to `apps` in `apps/apps-data.js`.
-The left menu, card, privacy row and credits appear automatically.
+The left menu, card and privacy row appear automatically.
 
 **Old App Store URLs** (`/aircombat/`, `/seacombat/`, …) are kept as tiny redirect pages to `/apps/#<id>`.
 Do not delete them: they are the Support/Privacy URLs in App Store Connect.

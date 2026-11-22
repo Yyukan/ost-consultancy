@@ -6,11 +6,11 @@
  *   2. Add one object to OST_APPS.apps below (category must match a categories[].id)
  *   3. Optional: if an App Store listing already links to /<id>/, add a redirect stub
  *      <id>/index.html (copy any existing one and change the id and name).
- * The icon dock, detail panel, privacy row and credits are all generated from this file.
+ * The left menu, app card and privacy row are all generated from this file.
  *
  * App fields: id (URL anchor, /apps/#<id>), name, category, tagline, platforms, icon,
  * appStore (full App Store URL; "" hides the button), description, tips ([question, answer]),
- * privacy { network, stores, note? }, credits (HTML, "" for none).
+ * privacy { network, stores, note? }.
  */
 window.OST_APPS = {
   contactEmail: "info@ost-consultancy.nl",
@@ -35,8 +35,7 @@ window.OST_APPS = {
         ["Low on fuel, armour or ammo?", "Land on the H. It refuels, repairs and re-arms the Cobra, paid for with points."],
         ["Why can't I pick a later island?", "Islands unlock in order. Rescue the pilots on an island to unlock the next one."]
       ],
-      privacy: { network: false, stores: "Progress, unlocked islands, best scores and the sound setting." },
-      credits: 'Game art: chabull, OpenGameArt <a href="https://opengameart.org/content/top-down-shooter">Top Down Shooter</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>. Helicopters, pilots, jet, jungle tiles and sounds are our own.'
+      privacy: { network: false, stores: "Progress, unlocked islands, best scores and the sound setting." }
     },
     {
       id: "aircombat1942", name: "Air Combat 1942", category: "arcade",
@@ -46,8 +45,7 @@ window.OST_APPS = {
         ["How do I fly and shoot?", "Drag anywhere on the screen. The plane follows your finger without sitting under it, and the guns fire on their own."],
         ["Why can't I pick a later mission?", "Missions unlock in order. Finish a mission, including its boss, to unlock the next one."]
       ],
-      privacy: { network: false, stores: "Progress, unlocked missions and best scores." },
-      credits: 'Game art: chabull, OpenGameArt <a href="https://opengameart.org/content/top-down-shooter">Top Down Shooter</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> (boss aircraft CC0).'
+      privacy: { network: false, stores: "Progress, unlocked missions and best scores." }
     },
     {
       id: "aircombat", name: "Air Combat", category: "board",
@@ -57,8 +55,7 @@ window.OST_APPS = {
         ["Where are the rules?", "In the game: tap the menu button on the blue plate, then Rules."],
         ["How do I move?", "Tap one of your aircraft, then tap one of the markers that show where it can go."]
       ],
-      privacy: { network: false, stores: "Game settings such as opponent and level." },
-      credits: "Game art: chabull, CC-BY 3.0."
+      privacy: { network: false, stores: "Game settings such as opponent and level." }
     },
     {
       id: "seacombat", name: "Sea Combat", category: "board",
@@ -68,8 +65,7 @@ window.OST_APPS = {
         ["Where are the rules?", "In the game: tap the round three-line button on the blue plate, then Rules."],
         ["How do I move?", "Tap one of your ships, then tap one of the markers that show where it can go, and pass the device."]
       ],
-      privacy: { network: false, stores: "Game settings such as opponent and level." },
-      credits: "Game art: chabull, CC-BY 3.0."
+      privacy: { network: false, stores: "Game settings such as opponent and level." }
     },
     {
       id: "dutchgrammar", name: "Dutch Grammar", category: "learning",
@@ -79,8 +75,7 @@ window.OST_APPS = {
         ["How do I find a chapter?", "Pick a part in the bottom bar, then a chapter. Red links open related chapters; the magnifier searches by title."],
         ["How do I change language or text size?", "With the chapter list away, swipe left on a page to open settings."]
       ],
-      privacy: { network: false, stores: "Language and text size." },
-      credits: ""
+      privacy: { network: false, stores: "Language and text size." }
     },
     {
       id: "wikiquoter", name: "Wiki Quoter", category: "learning",
@@ -91,8 +86,7 @@ window.OST_APPS = {
         ["Nothing loads.", "Quotes come live from wikiquote.org, so the app needs an internet connection. Swipe to try again."]
       ],
       privacy: { network: true, stores: "Chosen edition and hidden authors.",
-        note: 'Downloads random pages from wikiquote.org; Wikimedia receives standard request data such as your IP address (<a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia privacy policy</a>).' },
-      credits: "Quotes: Wikiquote contributors, CC BY-SA. Not affiliated with the Wikimedia Foundation."
+        note: 'Downloads random pages from wikiquote.org; Wikimedia receives standard request data such as your IP address (<a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia privacy policy</a>).' }
     },
     {
       id: "workhours", name: "Work Hours", category: "everyday",
@@ -103,8 +97,7 @@ window.OST_APPS = {
         ["Edit or delete a place", "Swipe a row to the left, or open the place and tap Edit."]
       ],
       privacy: { network: false, stores: "Your places, hours and photos.",
-        note: 'Camera is used only when you take a photo of a place. Opening a map sends the address to Apple Maps (<a href="https://www.apple.com/legal/privacy/">Apple privacy policy</a>).' },
-      credits: ""
+        note: 'Camera is used only when you take a photo of a place. Opening a map sends the address to Apple Maps (<a href="https://www.apple.com/legal/privacy/">Apple privacy policy</a>).' }
     },
     {
       id: "beirrational", name: "Be Irrational", category: "everyday",
@@ -113,8 +106,7 @@ window.OST_APPS = {
       tips: [
         ["How do I use it?", "Add a scope with +, open it and add what you would do now. Open an occupation to set its progress. Swipe left to move it to Someday, Completed or Trash."]
       ],
-      privacy: { network: false, stores: "Everything you write in it." },
-      credits: ""
+      privacy: { network: false, stores: "Everything you write in it." }
     }
   ],
 
