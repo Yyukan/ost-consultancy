@@ -121,3 +121,5 @@ When updating CVs:
 | `CV_EN_Oleksandr_Shtykhno.pdf` | English CV (PDF) |
 | `CV_NL_Oleksandr_Shtykhno.pdf` | Dutch CV (PDF) |
 | `assets/` | Static assets (images, video, favicon) |
+| `apps/apps-data.js` | Data for the `/apps/` page; add a new iOS app here (icon in `apps/icons/`) |
+| `<app-id>/index.html` | Redirect stubs to `/apps/#<app-id>`; URLs are in App Store listings, never remove them |
