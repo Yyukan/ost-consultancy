@@ -43,9 +43,6 @@ html { scroll-padding-top: 72px; scroll-behavior: smooth; }
   .privacy-table td[data-label]::before { content: attr(data-label) ": "; font-weight: 600; color: var(--text-muted); }
 }
 
-.apps-footer-credits { color: rgba(255,255,255,.6); font-size: .8rem; margin: .4rem 0 0; }
-.footer p { color: rgba(255,255,255,.75); margin: 0; font-size: .85rem; }
-.footer a { color: #fff; }
 .flash { animation: flash 1.6s ease; }
 @keyframes flash { 0%, 50% { box-shadow: 0 0 0 4px rgba(44, 105, 209, 0.55), var(--shadow-medium); background-color: #eaf2fd; } 100% { box-shadow: var(--shadow-light); background-color: var(--white); } }
 .flash { animation-duration: 2.5s; }

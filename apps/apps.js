@@ -90,10 +90,6 @@
       </div>`;
   }
 
-  function renderCredits() {
-    document.getElementById("credits").innerHTML = D.apps.filter((a) => a.credits)
-      .map((a) => `<strong>${a.name}</strong>: ${a.credits}`).join(" · ");
-  }
 
   // On mobile the menu is a horizontal icon strip: scroll only the strip, never the page.
   // (scrollIntoView also nudges the window, which fights the user's own scroll on phones.)
@@ -155,7 +151,6 @@
     document.getElementById("coffeeMobile").innerHTML = coffeeButton();
     renderFaq();
     renderPrivacy();
-    renderCredits();
     initScrollSpy();
     initNavToggle();
     applyHash();
