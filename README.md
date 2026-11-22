@@ -37,6 +37,12 @@ ost-consultancy/
 │   ├── favicon.ico         # Site favicon
 │   ├── img/                # Images
 │   └── mp4/                # Background video
+├── apps/                   # iOS apps & games: support, FAQ, privacy (one page)
+│   ├── index.html
+│   ├── apps-data.js        # All app data: add a new app here
+│   ├── apps.css / apps.js
+│   └── icons/              # 256x256 app icons, <id>.png
+├── <app-id>/index.html     # Redirect stubs: URLs used in App Store listings
 ├── CV_EN.md                # English CV (Markdown)
 ├── CV_NL.md                # Dutch CV (Markdown)
 ├── CV_EN_Oleksandr_Shtykhno.pdf  # English CV (PDF)
@@ -44,6 +50,17 @@ ost-consultancy/
 ├── CNAME                   # GitHub Pages custom domain
 └── AGENTS.md               # AI assistant guidelines
 ```
+
+## 📱 Apps page
+
+`/apps/` lists every iOS app with help, a shared FAQ, one Buy Me a Coffee link and one privacy policy.
+Everything is generated from `apps/apps-data.js`.
+
+**Add an app:** put its icon in `apps/icons/<id>.png` and add one entry to `apps` in `apps/apps-data.js`.
+The left menu, card, privacy row and credits appear automatically.
+
+**Old App Store URLs** (`/aircombat/`, `/seacombat/`, …) are kept as tiny redirect pages to `/apps/#<id>`.
+Do not delete them: they are the Support/Privacy URLs in App Store Connect.
 
 ## 👤 Author
 

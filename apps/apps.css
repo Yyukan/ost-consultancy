@@ -1,0 +1,113 @@
+/* /apps/ page: support, FAQ and privacy for all iOS apps (on top of ../css/styles.css) */
+body { font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--text-dark); background: var(--white); }
+h1, h2, h3, h4 { font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.apps-nav { background: rgba(10, 35, 66, 0.97); }
+.apps-nav .nav-link.active::after { width: 100%; }
+@media (max-width: 991.98px) { .apps-nav .navbar-collapse.show { display: block; } }
+html { scroll-padding-top: 72px; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.app-icon { border-radius: 22%; box-shadow: 0 4px 14px rgba(10, 35, 66, 0.18); background: var(--light-blue); flex: none; }
+
+/* Buy me a coffee: once per page */
+.coffee { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 999px;
+  background: #ffdd00; color: #1d1d1f; font-weight: 600; text-decoration: none; transition: transform .12s ease, box-shadow .12s ease; }
+.coffee:hover, .coffee:focus-visible { color: #1d1d1f; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,.22); }
+.coffee:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
+
+/* FAQ (shared, rendered once) */
+.faq-list { max-width: 820px; margin: 0 auto; }
+.faq-list details { background: var(--white); border-radius: 12px; box-shadow: var(--shadow-light); margin-bottom: .75rem; }
+.faq-list summary { cursor: pointer; padding: 1rem 1.25rem; font-weight: 600; color: var(--primary-blue); list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; color: var(--secondary-blue); font-size: 1.3rem; line-height: 1; }
+.faq-list details[open] summary::after { content: "–"; }
+.faq-list details p { padding: 0 1.25rem 1rem; margin: 0; color: #3b4450; }
+
+/* Privacy (one policy, per-app table) */
+.privacy-wrap { max-width: 980px; margin: 0 auto; }
+.privacy-wrap > p, .privacy-wrap li { color: #3b4450; }
+.privacy-table { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--white); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-light); font-size: .92rem; margin: 1.25rem 0; }
+.privacy-table th { background: var(--primary-blue); color: var(--white); text-align: left; padding: .7rem 1rem; font-weight: 600; }
+.privacy-table td { padding: .7rem 1rem; border-top: 1px solid #e6edf6; vertical-align: top; }
+.privacy-table tr:target td, .privacy-table tr.flash td { background: #fff8cc; }
+.privacy-table .app-cell { display: flex; align-items: center; gap: .6rem; font-weight: 600; white-space: nowrap; }
+.pill { display: inline-block; padding: .1rem .55rem; border-radius: 999px; font-size: .78rem; font-weight: 600; }
+.pill-off { background: #e7f6ec; color: #1d6b37; }
+.pill-on { background: #fff1d6; color: #8a5300; }
+@media (max-width: 700px) {
+  .privacy-table thead { display: none; }
+  .privacy-table tr { display: block; border-top: 1px solid #e6edf6; padding: .6rem 0; }
+  .privacy-table td { display: block; border: 0; padding: .25rem 1rem; }
+  .privacy-table td.empty { display: none; }
+  .privacy-table td[data-label]::before { content: attr(data-label) ": "; font-weight: 600; color: var(--text-muted); }
+}
+
+.apps-footer-credits { color: rgba(255,255,255,.6); font-size: .8rem; margin: .4rem 0 0; }
+.footer p { color: rgba(255,255,255,.75); margin: 0; font-size: .85rem; }
+.footer a { color: #fff; }
+.flash { animation: flash 1.6s ease; }
+@keyframes flash { 0%, 40% { box-shadow: 0 0 0 4px #ffdd00; } 100% { box-shadow: var(--shadow-light); } }
+
+/* Layout: hero, left app menu, app catalogue */
+body { background: var(--light-blue); }
+.cat-hero { background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue)); color: #fff; padding: 6.5rem 0 2.5rem; }
+.cat-hero h1 { font-size: 2.4rem; font-weight: 700; margin: 0 0 .3rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; color: rgba(255,255,255,.6); margin: 0 0 .4rem; }
+.lead-sub { color: rgba(255,255,255,.75); margin: 0; }
+.layout { display: grid; grid-template-columns: 250px 1fr; gap: 2.5rem; padding-top: 2.5rem; padding-bottom: 3rem; align-items: start; }
+.side { position: sticky; top: 80px; }
+.side-nav { background: #fff; border-radius: 15px; box-shadow: var(--shadow-light); padding: 1rem; }
+.side-nav h3 { font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); margin: .9rem .5rem .4rem; }
+.side-nav h3:first-child { margin-top: .2rem; }
+.side-nav a { display: flex; align-items: center; gap: .6rem; padding: .35rem .5rem; border-radius: 10px; color: var(--primary-blue); text-decoration: none; font-weight: 500; font-size: .92rem; }
+.side-nav a img { width: 28px; height: 28px; border-radius: 22%; }
+.side-nav a:hover, .side-nav a.current { background: var(--light-blue); color: var(--secondary-blue); }
+.side-nav .extra { border-top: 1px solid #e6edf6; margin-top: .8rem; padding-top: .6rem; }
+.side-coffee { margin-top: 1rem; background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue)); color: #fff; border-radius: 15px; padding: 1.1rem; font-size: .88rem; }
+.side-coffee p { color: rgba(255,255,255,.8); }
+.side-coffee strong { color: #fff; }
+.side-coffee .coffee { width: 100%; justify-content: center; padding: 10px 14px; }
+.cat-block { margin-bottom: 2.5rem; }
+.cat-block > h2 { font-size: 1.5rem; }
+.cat-block .section-subtitle { margin-bottom: 1.25rem; }
+.app-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+/* Cards reuse the main page's experience card (.timeline-content, .timeline-header, .tech-tag) */
+.app-card { display: flex; flex-direction: column; scroll-margin-top: 16px; }
+.app-card-head { display: flex; gap: 1rem; align-items: center; margin-bottom: .75rem; }
+.app-card-head .app-icon { width: 72px; height: 72px; }
+.app-card .timeline-header h3 { font-size: 1.15rem; }
+.app-card .timeline-header .period { margin-bottom: 0; }
+.app-card > p { flex: 0 0 auto; }
+.app-card .timeline-details { flex: 1; }
+.app-card .timeline-details ul { list-style: none; padding: 0; margin-bottom: .9rem; }
+.app-card .timeline-details li { font-size: .85rem; margin-bottom: .5rem; }
+.app-card .timeline-details li strong { display: block; color: var(--primary-blue); }
+.app-card .tech-stack { margin-bottom: 1rem; }
+.row-links { display: flex; gap: .5rem; flex-wrap: wrap; border-top: 1px solid #e6edf6; padding-top: 1rem; }
+.row-links a { font-size: .8rem; font-weight: 600; padding: .35rem .9rem; border-radius: 50px; text-decoration: none; border: 2px solid var(--secondary-blue); color: var(--secondary-blue); transition: all var(--transition-fast); }
+.row-links a:hover, .row-links a:focus-visible { background: var(--secondary-blue); color: var(--white); }
+.row-links a.primary { background: var(--secondary-blue); color: var(--white); }
+.block { margin-bottom: 2.5rem; scroll-margin-top: 90px; }
+.block .faq-list { max-width: none; }
+.contact-card { background: #fff; border-radius: 15px; box-shadow: var(--shadow-light); padding: 1.5rem; }
+.contact-card h2 { font-size: 1.3rem; font-weight: 700; color: var(--primary-blue); }
+.mobile-coffee { display: none; }
+@media (max-width: 991.98px) {
+  .layout { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 0; }
+  .side { position: sticky; top: 56px; z-index: 5; margin: 0 -12px; }
+  .side-nav { border-radius: 0; display: flex; gap: .3rem; overflow-x: auto; padding: .5rem .75rem; box-shadow: 0 4px 10px rgba(0,0,0,.08); }
+  .side-nav h3, .side-nav .extra { display: none; }
+  .side-nav a { flex-direction: column; font-size: .68rem; gap: .2rem; min-width: 64px; text-align: center; }
+  .side-nav a img { width: 40px; height: 40px; }
+  .side-coffee { display: none; }
+  .mobile-coffee { display: block; }
+  .cat-hero { padding: 5rem 0 1.5rem; } .cat-hero h1 { font-size: 1.9rem; }
+  .layout > * { min-width: 0; }
+  .app-grid { grid-template-columns: 1fr; }
+  .app-card-head .app-icon { width: 60px; height: 60px; }
+}
+
+/* Links in the blue scheme (Bootstrap's default link colour is teal) */
+.content a:not(.coffee):not(.btn-primary-custom) { color: var(--secondary-blue); }
+.row-links a:hover, .row-links a:focus-visible, .row-links a.primary { color: var(--white) !important; }
